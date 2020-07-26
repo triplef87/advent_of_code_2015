@@ -1,0 +1,1321 @@
+*******
+cur_key: 0, has Wire { state: Signal, val: 0, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["c"] }
+c, has Wire { state: Signal, val: 0, src_a: "0", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["t"] }
+cur_key: c, has Wire { state: Signal, val: 0, src_a: "0", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["t"] }
+t, has Wire { state: Wait, val: 0, src_a: "c", src_b: "1", a_val: (0, true), b_val: (0, false), command: Lshift, dest: ["u"] }
+cur_key: 3, has Wire { state: Signal, val: 3, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["df", "ck", "iw", "bp", "lh", "ib", "jr", "fq", "ev", "hg", "ea", "km", "gl", "e", "au", "z"] }
+df, has Wire { state: Wait, val: 0, src_a: "dd", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["di", "dh"] }
+ck, has Wire { state: Wait, val: 0, src_a: "ci", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["cn", "cm"] }
+iw, has Wire { state: Wait, val: 0, src_a: "iu", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["iy", "iz"] }
+bp, has Wire { state: Wait, val: 0, src_a: "bn", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["br", "bs"] }
+lh, has Wire { state: Wait, val: 0, src_a: "lf", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["lk", "lj"] }
+ib, has Wire { state: Wait, val: 0, src_a: "hz", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["id", "ie"] }
+jr, has Wire { state: Wait, val: 0, src_a: "jp", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["ju", "jt"] }
+fq, has Wire { state: Wait, val: 0, src_a: "fo", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["ft", "fs"] }
+ev, has Wire { state: Wait, val: 0, src_a: "et", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["ex", "ey"] }
+hg, has Wire { state: Wait, val: 0, src_a: "he", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["hi", "hj"] }
+ea, has Wire { state: Wait, val: 0, src_a: "dy", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["ed", "ec"] }
+km, has Wire { state: Wait, val: 0, src_a: "kk", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["kp", "ko"] }
+gl, has Wire { state: Wait, val: 0, src_a: "gj", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["gn", "go"] }
+e, has Wire { state: Wait, val: 0, src_a: "b", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["g", "h"] }
+au, has Wire { state: Wait, val: 0, src_a: "as", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["ax", "aw"] }
+z, has Wire { state: Wait, val: 0, src_a: "x", src_b: "3", a_val: (0, false), b_val: (3, true), command: Rshift, dest: ["ab", "ac"] }
+cur_key: 5, has Wire { state: Signal, val: 5, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["js", "gm", "av", "li", "ew", "ix", "eb", "aa", "cl", "kn", "bq", "f", "dg", "fr", "ic", "hh"] }
+js, has Wire { state: Wait, val: 0, src_a: "jp", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["ju", "jt"] }
+gm, has Wire { state: Wait, val: 0, src_a: "gj", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["gn", "go"] }
+av, has Wire { state: Wait, val: 0, src_a: "as", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["ax", "aw"] }
+li, has Wire { state: Wait, val: 0, src_a: "lf", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["lk", "lj"] }
+ew, has Wire { state: Wait, val: 0, src_a: "et", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["ex", "ey"] }
+ix, has Wire { state: Wait, val: 0, src_a: "iu", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["iy", "iz"] }
+eb, has Wire { state: Wait, val: 0, src_a: "dy", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["ed", "ec"] }
+aa, has Wire { state: Wait, val: 0, src_a: "x", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["ab", "ac"] }
+cl, has Wire { state: Wait, val: 0, src_a: "ci", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["cn", "cm"] }
+kn, has Wire { state: Wait, val: 0, src_a: "kk", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["kp", "ko"] }
+bq, has Wire { state: Wait, val: 0, src_a: "bn", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["br", "bs"] }
+f, has Wire { state: Wait, val: 0, src_a: "b", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["g", "h"] }
+dg, has Wire { state: Wait, val: 0, src_a: "dd", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["di", "dh"] }
+fr, has Wire { state: Wait, val: 0, src_a: "fo", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["ft", "fs"] }
+ic, has Wire { state: Wait, val: 0, src_a: "hz", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["id", "ie"] }
+hh, has Wire { state: Wait, val: 0, src_a: "he", src_b: "5", a_val: (0, false), b_val: (5, true), command: Rshift, dest: ["hi", "hj"] }
+cur_key: 2, has Wire { state: Signal, val: 2, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["eu", "lg", "de", "jq", "ia", "dz", "kl", "bo", "gk", "iv", "fp", "hf", "y", "cj", "d", "at"] }
+eu, has Wire { state: Wait, val: 0, src_a: "et", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["fc", "fb"] }
+lg, has Wire { state: Wait, val: 0, src_a: "lf", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["ln", "lo"] }
+de, has Wire { state: Wait, val: 0, src_a: "dd", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["dl", "dm"] }
+jq, has Wire { state: Wait, val: 0, src_a: "jp", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["jx", "jy"] }
+ia, has Wire { state: Wait, val: 0, src_a: "hz", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["ii", "ih"] }
+dz, has Wire { state: Wait, val: 0, src_a: "dy", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["eg", "eh"] }
+kl, has Wire { state: Wait, val: 0, src_a: "kk", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["ks", "kt"] }
+bo, has Wire { state: Wait, val: 0, src_a: "bn", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["bv", "bw"] }
+gk, has Wire { state: Wait, val: 0, src_a: "gj", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["gr", "gs"] }
+iv, has Wire { state: Wait, val: 0, src_a: "iu", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["jc", "jd"] }
+fp, has Wire { state: Wait, val: 0, src_a: "fo", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["fx", "fw"] }
+hf, has Wire { state: Wait, val: 0, src_a: "he", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["hm", "hn"] }
+y, has Wire { state: Wait, val: 0, src_a: "x", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["ag", "af"] }
+cj, has Wire { state: Wait, val: 0, src_a: "ci", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["cr", "cq"] }
+d, has Wire { state: Wait, val: 0, src_a: "b", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["k", "l"] }
+at, has Wire { state: Wait, val: 0, src_a: "as", src_b: "2", a_val: (0, false), b_val: (2, true), command: Rshift, dest: ["bb", "ba"] }
+cur_key: 1, has Wire { state: Signal, val: 1, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["jn", "hc", "fm", "kg", "ip", "jk", "cd", "er", "ce", "bl", "db", "lb", "cg", "t", "fj", "ki", "gz", "v", "bj", "jl", "aq", "gf", "du", "bi", "iq", "dw", "s", "dt", "eo", "ly", "ha", "la", "cz", "cy", "ep", "lv", "lw", "is", "kf", "fk", "ao", "hx", "gh", "hu", "ld", "an", "hv", "ge"] }
+jn, has Wire { state: Wait, val: 0, src_a: "iu", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["jp"] }
+hc, has Wire { state: Wait, val: 0, src_a: "gj", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["he"] }
+fm, has Wire { state: Wait, val: 0, src_a: "et", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["fo"] }
+kg, has Wire { state: Wait, val: 0, src_a: "jm", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["kh"] }
+ip, has Wire { state: Wait, val: 0, src_a: "1", src_b: "io", a_val: (1, true), b_val: (0, false), command: And, dest: ["it", "ir"] }
+jk, has Wire { state: Wait, val: 0, src_a: "1", src_b: "jj", a_val: (1, true), b_val: (0, false), command: And, dest: ["jo", "jm"] }
+cd, has Wire { state: Wait, val: 0, src_a: "1", src_b: "cc", a_val: (1, true), b_val: (0, false), command: And, dest: ["cf", "ch"] }
+er, has Wire { state: Wait, val: 0, src_a: "dy", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["et"] }
+ce, has Wire { state: Wait, val: 0, src_a: "bk", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["cf"] }
+bl, has Wire { state: Wait, val: 0, src_a: "as", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["bn"] }
+db, has Wire { state: Wait, val: 0, src_a: "ci", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["dd"] }
+lb, has Wire { state: Wait, val: 0, src_a: "kh", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["lc"] }
+cg, has Wire { state: Wait, val: 0, src_a: "bn", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["ci"] }
+t, has Wire { state: Signal, val: 0, src_a: "c", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["u"] }
+fj, has Wire { state: Wait, val: 0, src_a: "1", src_b: "fi", a_val: (1, true), b_val: (0, false), command: And, dest: ["fn", "fl"] }
+ki, has Wire { state: Wait, val: 0, src_a: "jp", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["kk"] }
+gz, has Wire { state: Wait, val: 0, src_a: "1", src_b: "gy", a_val: (1, true), b_val: (0, false), command: And, dest: ["hd", "hb"] }
+v, has Wire { state: Wait, val: 0, src_a: "b", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["x"] }
+bj, has Wire { state: Wait, val: 0, src_a: "ap", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["bk"] }
+jl, has Wire { state: Wait, val: 0, src_a: "ir", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["jm"] }
+aq, has Wire { state: Wait, val: 0, src_a: "x", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["as"] }
+gf, has Wire { state: Wait, val: 0, src_a: "fl", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["gg"] }
+du, has Wire { state: Wait, val: 0, src_a: "da", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["dv"] }
+bi, has Wire { state: Wait, val: 0, src_a: "1", src_b: "bh", a_val: (1, true), b_val: (0, false), command: And, dest: ["bm", "bk"] }
+iq, has Wire { state: Wait, val: 0, src_a: "hw", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["ir"] }
+dw, has Wire { state: Wait, val: 0, src_a: "dd", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["dy"] }
+s, has Wire { state: Wait, val: 0, src_a: "1", src_b: "r", a_val: (1, true), b_val: (0, false), command: And, dest: ["u", "w"] }
+dt, has Wire { state: Wait, val: 0, src_a: "1", src_b: "ds", a_val: (1, true), b_val: (0, false), command: And, dest: ["dx", "dv"] }
+eo, has Wire { state: Wait, val: 0, src_a: "1", src_b: "en", a_val: (1, true), b_val: (0, false), command: And, dest: ["es", "eq"] }
+ly, has Wire { state: Wait, val: 0, src_a: "lf", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["ma"] }
+ha, has Wire { state: Wait, val: 0, src_a: "gg", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["hb"] }
+la, has Wire { state: Wait, val: 0, src_a: "1", src_b: "kz", a_val: (1, true), b_val: (0, false), command: And, dest: ["lc", "le"] }
+cz, has Wire { state: Wait, val: 0, src_a: "cf", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["da"] }
+cy, has Wire { state: Wait, val: 0, src_a: "1", src_b: "cx", a_val: (1, true), b_val: (0, false), command: And, dest: ["dc", "da"] }
+ep, has Wire { state: Wait, val: 0, src_a: "dv", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["eq"] }
+lv, has Wire { state: Wait, val: 0, src_a: "1", src_b: "lu", a_val: (1, true), b_val: (0, false), command: And, dest: ["lz", "lx"] }
+lw, has Wire { state: Wait, val: 0, src_a: "lc", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["lx"] }
+is, has Wire { state: Wait, val: 0, src_a: "hz", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["iu"] }
+kf, has Wire { state: Wait, val: 0, src_a: "1", src_b: "ke", a_val: (1, true), b_val: (0, false), command: And, dest: ["kh", "kj"] }
+fk, has Wire { state: Wait, val: 0, src_a: "eq", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["fl"] }
+ao, has Wire { state: Wait, val: 0, src_a: "u", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["ap"] }
+hx, has Wire { state: Wait, val: 0, src_a: "he", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["hz"] }
+gh, has Wire { state: Wait, val: 0, src_a: "fo", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["gj"] }
+hu, has Wire { state: Wait, val: 0, src_a: "1", src_b: "ht", a_val: (1, true), b_val: (0, false), command: And, dest: ["hw", "hy"] }
+ld, has Wire { state: Wait, val: 0, src_a: "kk", src_b: "1", a_val: (0, false), b_val: (1, true), command: Rshift, dest: ["lf"] }
+an, has Wire { state: Wait, val: 0, src_a: "1", src_b: "am", a_val: (1, true), b_val: (0, false), command: And, dest: ["ap", "ar"] }
+hv, has Wire { state: Wait, val: 0, src_a: "hb", src_b: "1", a_val: (0, false), b_val: (1, true), command: Lshift, dest: ["hw"] }
+ge, has Wire { state: Wait, val: 0, src_a: "1", src_b: "gd", a_val: (1, true), b_val: (0, false), command: And, dest: ["gg", "gi"] }
+cur_key: t, has Wire { state: Signal, val: 0, src_a: "c", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["u"] }
+u, has Wire { state: Wait, val: 0, src_a: "t", src_b: "s", a_val: (0, true), b_val: (0, false), command: Or, dest: ["ao"] }
+cur_key: 16076, has Wire { state: Signal, val: 16076, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["b"] }
+b, has Wire { state: Signal, val: 16076, src_a: "16076", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["o", "v", "p", "f", "d", "e"] }
+cur_key: b, has Wire { state: Signal, val: 16076, src_a: "16076", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["o", "v", "p", "f", "d", "e"] }
+o, has Wire { state: Wait, val: 0, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (0, false), command: Or, dest: ["r"] }
+v, has Wire { state: Signal, val: 8038, src_a: "b", src_b: "1", a_val: (16076, true), b_val: (1, true), command: Rshift, dest: ["x"] }
+p, has Wire { state: Wait, val: 0, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (0, false), command: And, dest: ["q"] }
+f, has Wire { state: Signal, val: 502, src_a: "b", src_b: "5", a_val: (16076, true), b_val: (5, true), command: Rshift, dest: ["g", "h"] }
+d, has Wire { state: Signal, val: 4019, src_a: "b", src_b: "2", a_val: (16076, true), b_val: (2, true), command: Rshift, dest: ["k", "l"] }
+e, has Wire { state: Signal, val: 2009, src_a: "b", src_b: "3", a_val: (16076, true), b_val: (3, true), command: Rshift, dest: ["g", "h"] }
+cur_key: e, has Wire { state: Signal, val: 2009, src_a: "b", src_b: "3", a_val: (16076, true), b_val: (3, true), command: Rshift, dest: ["g", "h"] }
+g, has Wire { state: Wait, val: 0, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (0, false), command: Or, dest: ["j"] }
+h, has Wire { state: Wait, val: 0, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (0, false), command: And, dest: ["i"] }
+cur_key: d, has Wire { state: Signal, val: 4019, src_a: "b", src_b: "2", a_val: (16076, true), b_val: (2, true), command: Rshift, dest: ["k", "l"] }
+k, has Wire { state: Wait, val: 0, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (0, false), command: Or, dest: ["n"] }
+l, has Wire { state: Wait, val: 0, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (0, false), command: And, dest: ["m"] }
+cur_key: f, has Wire { state: Signal, val: 502, src_a: "b", src_b: "5", a_val: (16076, true), b_val: (5, true), command: Rshift, dest: ["g", "h"] }
+g, has Wire { state: Signal, val: 2047, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (502, true), command: Or, dest: ["j"] }
+h, has Wire { state: Signal, val: 464, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (502, true), command: And, dest: ["i"] }
+cur_key: h, has Wire { state: Signal, val: 464, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (502, true), command: And, dest: ["i"] }
+i, has Wire { state: Signal, val: 65071, src_a: "h", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["j"] }
+cur_key: i, has Wire { state: Signal, val: 65071, src_a: "h", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["j"] }
+j, has Wire { state: Wait, val: 0, src_a: "g", src_b: "i", a_val: (0, false), b_val: (65071, true), command: And, dest: ["k", "l"] }
+cur_key: g, has Wire { state: Signal, val: 2047, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (502, true), command: Or, dest: ["j"] }
+j, has Wire { state: Signal, val: 1583, src_a: "g", src_b: "i", a_val: (2047, true), b_val: (65071, true), command: And, dest: ["k", "l"] }
+cur_key: j, has Wire { state: Signal, val: 1583, src_a: "g", src_b: "i", a_val: (2047, true), b_val: (65071, true), command: And, dest: ["k", "l"] }
+k, has Wire { state: Signal, val: 4031, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (1583, true), command: Or, dest: ["n"] }
+l, has Wire { state: Signal, val: 1571, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (1583, true), command: And, dest: ["m"] }
+cur_key: l, has Wire { state: Signal, val: 1571, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (1583, true), command: And, dest: ["m"] }
+m, has Wire { state: Signal, val: 63964, src_a: "l", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["n"] }
+cur_key: m, has Wire { state: Signal, val: 63964, src_a: "l", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["n"] }
+n, has Wire { state: Wait, val: 0, src_a: "k", src_b: "m", a_val: (0, false), b_val: (63964, true), command: And, dest: ["o", "p"] }
+cur_key: k, has Wire { state: Signal, val: 4031, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (1583, true), command: Or, dest: ["n"] }
+n, has Wire { state: Signal, val: 2460, src_a: "k", src_b: "m", a_val: (4031, true), b_val: (63964, true), command: And, dest: ["o", "p"] }
+cur_key: n, has Wire { state: Signal, val: 2460, src_a: "k", src_b: "m", a_val: (4031, true), b_val: (63964, true), command: And, dest: ["o", "p"] }
+o, has Wire { state: Signal, val: 16348, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (2460, true), command: Or, dest: ["r"] }
+p, has Wire { state: Signal, val: 2188, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (2460, true), command: And, dest: ["q"] }
+cur_key: p, has Wire { state: Signal, val: 2188, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (2460, true), command: And, dest: ["q"] }
+q, has Wire { state: Signal, val: 63347, src_a: "p", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["r"] }
+cur_key: q, has Wire { state: Signal, val: 63347, src_a: "p", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["r"] }
+r, has Wire { state: Wait, val: 0, src_a: "o", src_b: "q", a_val: (0, false), b_val: (63347, true), command: And, dest: ["s"] }
+cur_key: o, has Wire { state: Signal, val: 16348, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (2460, true), command: Or, dest: ["r"] }
+r, has Wire { state: Signal, val: 14160, src_a: "o", src_b: "q", a_val: (16348, true), b_val: (63347, true), command: And, dest: ["s"] }
+cur_key: r, has Wire { state: Signal, val: 14160, src_a: "o", src_b: "q", a_val: (16348, true), b_val: (63347, true), command: And, dest: ["s"] }
+s, has Wire { state: Signal, val: 0, src_a: "1", src_b: "r", a_val: (1, true), b_val: (14160, true), command: And, dest: ["u", "w"] }
+cur_key: s, has Wire { state: Signal, val: 0, src_a: "1", src_b: "r", a_val: (1, true), b_val: (14160, true), command: And, dest: ["u", "w"] }
+u, has Wire { state: Signal, val: 0, src_a: "t", src_b: "s", a_val: (0, true), b_val: (0, true), command: Or, dest: ["ao"] }
+w, has Wire { state: Wait, val: 0, src_a: "s", src_b: "15", a_val: (0, true), b_val: (0, false), command: Lshift, dest: ["x"] }
+cur_key: u, has Wire { state: Signal, val: 0, src_a: "t", src_b: "s", a_val: (0, true), b_val: (0, true), command: Or, dest: ["ao"] }
+ao, has Wire { state: Signal, val: 0, src_a: "u", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["ap"] }
+cur_key: ao, has Wire { state: Signal, val: 0, src_a: "u", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["ap"] }
+ap, has Wire { state: Wait, val: 0, src_a: "ao", src_b: "an", a_val: (0, true), b_val: (0, false), command: Or, dest: ["bj"] }
+cur_key: v, has Wire { state: Signal, val: 8038, src_a: "b", src_b: "1", a_val: (16076, true), b_val: (1, true), command: Rshift, dest: ["x"] }
+x, has Wire { state: Wait, val: 0, src_a: "v", src_b: "w", a_val: (8038, true), b_val: (0, false), command: Or, dest: ["ak", "aq", "aj", "aa", "y", "z"] }
+cur_key: 15, has Wire { state: Signal, val: 15, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["it", "fn", "es", "jo", "bm", "hd", "gi", "ch", "lz", "dc", "hy", "dx", "ar", "w", "kj", "le"] }
+it, has Wire { state: Wait, val: 0, src_a: "ip", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["iu"] }
+fn, has Wire { state: Wait, val: 0, src_a: "fj", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["fo"] }
+es, has Wire { state: Wait, val: 0, src_a: "eo", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["et"] }
+jo, has Wire { state: Wait, val: 0, src_a: "jk", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["jp"] }
+bm, has Wire { state: Wait, val: 0, src_a: "bi", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["bn"] }
+hd, has Wire { state: Wait, val: 0, src_a: "gz", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["he"] }
+gi, has Wire { state: Wait, val: 0, src_a: "ge", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["gj"] }
+ch, has Wire { state: Wait, val: 0, src_a: "cd", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["ci"] }
+lz, has Wire { state: Wait, val: 0, src_a: "lv", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["ma"] }
+dc, has Wire { state: Wait, val: 0, src_a: "cy", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["dd"] }
+hy, has Wire { state: Wait, val: 0, src_a: "hu", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["hz"] }
+dx, has Wire { state: Wait, val: 0, src_a: "dt", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["dy"] }
+ar, has Wire { state: Wait, val: 0, src_a: "an", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["as"] }
+w, has Wire { state: Signal, val: 0, src_a: "s", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["x"] }
+kj, has Wire { state: Wait, val: 0, src_a: "kf", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["kk"] }
+le, has Wire { state: Wait, val: 0, src_a: "la", src_b: "15", a_val: (0, false), b_val: (15, true), command: Lshift, dest: ["lf"] }
+cur_key: w, has Wire { state: Signal, val: 0, src_a: "s", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["x"] }
+x, has Wire { state: Signal, val: 8038, src_a: "v", src_b: "w", a_val: (8038, true), b_val: (0, true), command: Or, dest: ["ak", "aq", "aj", "aa", "y", "z"] }
+cur_key: x, has Wire { state: Signal, val: 8038, src_a: "v", src_b: "w", a_val: (8038, true), b_val: (0, true), command: Or, dest: ["ak", "aq", "aj", "aa", "y", "z"] }
+ak, has Wire { state: Wait, val: 0, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (0, false), command: And, dest: ["al"] }
+aq, has Wire { state: Signal, val: 4019, src_a: "x", src_b: "1", a_val: (8038, true), b_val: (1, true), command: Rshift, dest: ["as"] }
+aj, has Wire { state: Wait, val: 0, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (0, false), command: Or, dest: ["am"] }
+aa, has Wire { state: Signal, val: 251, src_a: "x", src_b: "5", a_val: (8038, true), b_val: (5, true), command: Rshift, dest: ["ab", "ac"] }
+y, has Wire { state: Signal, val: 2009, src_a: "x", src_b: "2", a_val: (8038, true), b_val: (2, true), command: Rshift, dest: ["ag", "af"] }
+z, has Wire { state: Signal, val: 1004, src_a: "x", src_b: "3", a_val: (8038, true), b_val: (3, true), command: Rshift, dest: ["ab", "ac"] }
+cur_key: z, has Wire { state: Signal, val: 1004, src_a: "x", src_b: "3", a_val: (8038, true), b_val: (3, true), command: Rshift, dest: ["ab", "ac"] }
+ab, has Wire { state: Wait, val: 0, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (0, false), command: Or, dest: ["ae"] }
+ac, has Wire { state: Wait, val: 0, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (0, false), command: And, dest: ["ad"] }
+cur_key: y, has Wire { state: Signal, val: 2009, src_a: "x", src_b: "2", a_val: (8038, true), b_val: (2, true), command: Rshift, dest: ["ag", "af"] }
+ag, has Wire { state: Wait, val: 0, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (0, false), command: And, dest: ["ah"] }
+af, has Wire { state: Wait, val: 0, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (0, false), command: Or, dest: ["ai"] }
+cur_key: aa, has Wire { state: Signal, val: 251, src_a: "x", src_b: "5", a_val: (8038, true), b_val: (5, true), command: Rshift, dest: ["ab", "ac"] }
+ab, has Wire { state: Signal, val: 1023, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (251, true), command: Or, dest: ["ae"] }
+ac, has Wire { state: Signal, val: 232, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (251, true), command: And, dest: ["ad"] }
+cur_key: ac, has Wire { state: Signal, val: 232, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (251, true), command: And, dest: ["ad"] }
+ad, has Wire { state: Signal, val: 65303, src_a: "ac", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ae"] }
+cur_key: ad, has Wire { state: Signal, val: 65303, src_a: "ac", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ae"] }
+ae, has Wire { state: Wait, val: 0, src_a: "ab", src_b: "ad", a_val: (0, false), b_val: (65303, true), command: And, dest: ["ag", "af"] }
+cur_key: ab, has Wire { state: Signal, val: 1023, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (251, true), command: Or, dest: ["ae"] }
+ae, has Wire { state: Signal, val: 791, src_a: "ab", src_b: "ad", a_val: (1023, true), b_val: (65303, true), command: And, dest: ["ag", "af"] }
+cur_key: ae, has Wire { state: Signal, val: 791, src_a: "ab", src_b: "ad", a_val: (1023, true), b_val: (65303, true), command: And, dest: ["ag", "af"] }
+ag, has Wire { state: Signal, val: 785, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (791, true), command: And, dest: ["ah"] }
+af, has Wire { state: Signal, val: 2015, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (791, true), command: Or, dest: ["ai"] }
+cur_key: af, has Wire { state: Signal, val: 2015, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (791, true), command: Or, dest: ["ai"] }
+ai, has Wire { state: Wait, val: 0, src_a: "af", src_b: "ah", a_val: (2015, true), b_val: (0, false), command: And, dest: ["ak", "aj"] }
+cur_key: ag, has Wire { state: Signal, val: 785, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (791, true), command: And, dest: ["ah"] }
+ah, has Wire { state: Signal, val: 64750, src_a: "ag", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ai"] }
+cur_key: ah, has Wire { state: Signal, val: 64750, src_a: "ag", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ai"] }
+ai, has Wire { state: Signal, val: 1230, src_a: "af", src_b: "ah", a_val: (2015, true), b_val: (64750, true), command: And, dest: ["ak", "aj"] }
+cur_key: ai, has Wire { state: Signal, val: 1230, src_a: "af", src_b: "ah", a_val: (2015, true), b_val: (64750, true), command: And, dest: ["ak", "aj"] }
+ak, has Wire { state: Signal, val: 1094, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (1230, true), command: And, dest: ["al"] }
+aj, has Wire { state: Signal, val: 8174, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (1230, true), command: Or, dest: ["am"] }
+cur_key: aj, has Wire { state: Signal, val: 8174, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (1230, true), command: Or, dest: ["am"] }
+am, has Wire { state: Wait, val: 0, src_a: "aj", src_b: "al", a_val: (8174, true), b_val: (0, false), command: And, dest: ["an"] }
+cur_key: ak, has Wire { state: Signal, val: 1094, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (1230, true), command: And, dest: ["al"] }
+al, has Wire { state: Signal, val: 64441, src_a: "ak", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["am"] }
+cur_key: al, has Wire { state: Signal, val: 64441, src_a: "ak", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["am"] }
+am, has Wire { state: Signal, val: 7080, src_a: "aj", src_b: "al", a_val: (8174, true), b_val: (64441, true), command: And, dest: ["an"] }
+cur_key: am, has Wire { state: Signal, val: 7080, src_a: "aj", src_b: "al", a_val: (8174, true), b_val: (64441, true), command: And, dest: ["an"] }
+an, has Wire { state: Signal, val: 0, src_a: "1", src_b: "am", a_val: (1, true), b_val: (7080, true), command: And, dest: ["ap", "ar"] }
+cur_key: an, has Wire { state: Signal, val: 0, src_a: "1", src_b: "am", a_val: (1, true), b_val: (7080, true), command: And, dest: ["ap", "ar"] }
+ap, has Wire { state: Signal, val: 0, src_a: "ao", src_b: "an", a_val: (0, true), b_val: (0, true), command: Or, dest: ["bj"] }
+ar, has Wire { state: Signal, val: 0, src_a: "an", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["as"] }
+cur_key: ar, has Wire { state: Signal, val: 0, src_a: "an", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["as"] }
+as, has Wire { state: Wait, val: 0, src_a: "aq", src_b: "ar", a_val: (0, false), b_val: (0, true), command: Or, dest: ["bl", "av", "be", "bf", "at", "au"] }
+cur_key: ap, has Wire { state: Signal, val: 0, src_a: "ao", src_b: "an", a_val: (0, true), b_val: (0, true), command: Or, dest: ["bj"] }
+bj, has Wire { state: Signal, val: 0, src_a: "ap", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["bk"] }
+cur_key: bj, has Wire { state: Signal, val: 0, src_a: "ap", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["bk"] }
+bk, has Wire { state: Wait, val: 0, src_a: "bj", src_b: "bi", a_val: (0, true), b_val: (0, false), command: Or, dest: ["ce"] }
+cur_key: aq, has Wire { state: Signal, val: 4019, src_a: "x", src_b: "1", a_val: (8038, true), b_val: (1, true), command: Rshift, dest: ["as"] }
+as, has Wire { state: Signal, val: 4019, src_a: "aq", src_b: "ar", a_val: (4019, true), b_val: (0, true), command: Or, dest: ["bl", "av", "be", "bf", "at", "au"] }
+cur_key: as, has Wire { state: Signal, val: 4019, src_a: "aq", src_b: "ar", a_val: (4019, true), b_val: (0, true), command: Or, dest: ["bl", "av", "be", "bf", "at", "au"] }
+bl, has Wire { state: Signal, val: 2009, src_a: "as", src_b: "1", a_val: (4019, true), b_val: (1, true), command: Rshift, dest: ["bn"] }
+av, has Wire { state: Signal, val: 125, src_a: "as", src_b: "5", a_val: (4019, true), b_val: (5, true), command: Rshift, dest: ["ax", "aw"] }
+be, has Wire { state: Wait, val: 0, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (0, false), command: Or, dest: ["bh"] }
+bf, has Wire { state: Wait, val: 0, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (0, false), command: And, dest: ["bg"] }
+at, has Wire { state: Signal, val: 1004, src_a: "as", src_b: "2", a_val: (4019, true), b_val: (2, true), command: Rshift, dest: ["bb", "ba"] }
+au, has Wire { state: Signal, val: 502, src_a: "as", src_b: "3", a_val: (4019, true), b_val: (3, true), command: Rshift, dest: ["ax", "aw"] }
+cur_key: au, has Wire { state: Signal, val: 502, src_a: "as", src_b: "3", a_val: (4019, true), b_val: (3, true), command: Rshift, dest: ["ax", "aw"] }
+ax, has Wire { state: Wait, val: 0, src_a: "au", src_b: "av", a_val: (502, true), b_val: (0, false), command: And, dest: ["ay"] }
+aw, has Wire { state: Wait, val: 0, src_a: "au", src_b: "av", a_val: (502, true), b_val: (0, false), command: Or, dest: ["az"] }
+cur_key: at, has Wire { state: Signal, val: 1004, src_a: "as", src_b: "2", a_val: (4019, true), b_val: (2, true), command: Rshift, dest: ["bb", "ba"] }
+bb, has Wire { state: Wait, val: 0, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (0, false), command: And, dest: ["bc"] }
+ba, has Wire { state: Wait, val: 0, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (0, false), command: Or, dest: ["bd"] }
+cur_key: av, has Wire { state: Signal, val: 125, src_a: "as", src_b: "5", a_val: (4019, true), b_val: (5, true), command: Rshift, dest: ["ax", "aw"] }
+ax, has Wire { state: Signal, val: 116, src_a: "au", src_b: "av", a_val: (502, true), b_val: (125, true), command: And, dest: ["ay"] }
+aw, has Wire { state: Signal, val: 511, src_a: "au", src_b: "av", a_val: (502, true), b_val: (125, true), command: Or, dest: ["az"] }
+cur_key: aw, has Wire { state: Signal, val: 511, src_a: "au", src_b: "av", a_val: (502, true), b_val: (125, true), command: Or, dest: ["az"] }
+az, has Wire { state: Wait, val: 0, src_a: "aw", src_b: "ay", a_val: (511, true), b_val: (0, false), command: And, dest: ["bb", "ba"] }
+cur_key: ax, has Wire { state: Signal, val: 116, src_a: "au", src_b: "av", a_val: (502, true), b_val: (125, true), command: And, dest: ["ay"] }
+ay, has Wire { state: Signal, val: 65419, src_a: "ax", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["az"] }
+cur_key: ay, has Wire { state: Signal, val: 65419, src_a: "ax", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["az"] }
+az, has Wire { state: Signal, val: 395, src_a: "aw", src_b: "ay", a_val: (511, true), b_val: (65419, true), command: And, dest: ["bb", "ba"] }
+cur_key: az, has Wire { state: Signal, val: 395, src_a: "aw", src_b: "ay", a_val: (511, true), b_val: (65419, true), command: And, dest: ["bb", "ba"] }
+bb, has Wire { state: Signal, val: 392, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (395, true), command: And, dest: ["bc"] }
+ba, has Wire { state: Signal, val: 1007, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (395, true), command: Or, dest: ["bd"] }
+cur_key: ba, has Wire { state: Signal, val: 1007, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (395, true), command: Or, dest: ["bd"] }
+bd, has Wire { state: Wait, val: 0, src_a: "ba", src_b: "bc", a_val: (1007, true), b_val: (0, false), command: And, dest: ["be", "bf"] }
+cur_key: bb, has Wire { state: Signal, val: 392, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (395, true), command: And, dest: ["bc"] }
+bc, has Wire { state: Signal, val: 65143, src_a: "bb", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bd"] }
+cur_key: bc, has Wire { state: Signal, val: 65143, src_a: "bb", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bd"] }
+bd, has Wire { state: Signal, val: 615, src_a: "ba", src_b: "bc", a_val: (1007, true), b_val: (65143, true), command: And, dest: ["be", "bf"] }
+cur_key: bd, has Wire { state: Signal, val: 615, src_a: "ba", src_b: "bc", a_val: (1007, true), b_val: (65143, true), command: And, dest: ["be", "bf"] }
+be, has Wire { state: Signal, val: 4087, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (615, true), command: Or, dest: ["bh"] }
+bf, has Wire { state: Signal, val: 547, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (615, true), command: And, dest: ["bg"] }
+cur_key: bf, has Wire { state: Signal, val: 547, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (615, true), command: And, dest: ["bg"] }
+bg, has Wire { state: Signal, val: 64988, src_a: "bf", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bh"] }
+cur_key: bg, has Wire { state: Signal, val: 64988, src_a: "bf", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bh"] }
+bh, has Wire { state: Wait, val: 0, src_a: "be", src_b: "bg", a_val: (0, false), b_val: (64988, true), command: And, dest: ["bi"] }
+cur_key: be, has Wire { state: Signal, val: 4087, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (615, true), command: Or, dest: ["bh"] }
+bh, has Wire { state: Signal, val: 3540, src_a: "be", src_b: "bg", a_val: (4087, true), b_val: (64988, true), command: And, dest: ["bi"] }
+cur_key: bh, has Wire { state: Signal, val: 3540, src_a: "be", src_b: "bg", a_val: (4087, true), b_val: (64988, true), command: And, dest: ["bi"] }
+bi, has Wire { state: Signal, val: 0, src_a: "1", src_b: "bh", a_val: (1, true), b_val: (3540, true), command: And, dest: ["bm", "bk"] }
+cur_key: bi, has Wire { state: Signal, val: 0, src_a: "1", src_b: "bh", a_val: (1, true), b_val: (3540, true), command: And, dest: ["bm", "bk"] }
+bm, has Wire { state: Signal, val: 0, src_a: "bi", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["bn"] }
+bk, has Wire { state: Signal, val: 0, src_a: "bj", src_b: "bi", a_val: (0, true), b_val: (0, true), command: Or, dest: ["ce"] }
+cur_key: bk, has Wire { state: Signal, val: 0, src_a: "bj", src_b: "bi", a_val: (0, true), b_val: (0, true), command: Or, dest: ["ce"] }
+ce, has Wire { state: Signal, val: 0, src_a: "bk", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["cf"] }
+cur_key: ce, has Wire { state: Signal, val: 0, src_a: "bk", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["cf"] }
+cf, has Wire { state: Wait, val: 0, src_a: "ce", src_b: "cd", a_val: (0, true), b_val: (0, false), command: Or, dest: ["cz"] }
+cur_key: bm, has Wire { state: Signal, val: 0, src_a: "bi", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["bn"] }
+bn, has Wire { state: Wait, val: 0, src_a: "bl", src_b: "bm", a_val: (0, false), b_val: (0, true), command: Or, dest: ["bp", "cg", "bo", "ca", "bz", "bq"] }
+cur_key: bl, has Wire { state: Signal, val: 2009, src_a: "as", src_b: "1", a_val: (4019, true), b_val: (1, true), command: Rshift, dest: ["bn"] }
+bn, has Wire { state: Signal, val: 2009, src_a: "bl", src_b: "bm", a_val: (2009, true), b_val: (0, true), command: Or, dest: ["bp", "cg", "bo", "ca", "bz", "bq"] }
+cur_key: bn, has Wire { state: Signal, val: 2009, src_a: "bl", src_b: "bm", a_val: (2009, true), b_val: (0, true), command: Or, dest: ["bp", "cg", "bo", "ca", "bz", "bq"] }
+bp, has Wire { state: Signal, val: 251, src_a: "bn", src_b: "3", a_val: (2009, true), b_val: (3, true), command: Rshift, dest: ["br", "bs"] }
+cg, has Wire { state: Signal, val: 1004, src_a: "bn", src_b: "1", a_val: (2009, true), b_val: (1, true), command: Rshift, dest: ["ci"] }
+bo, has Wire { state: Signal, val: 502, src_a: "bn", src_b: "2", a_val: (2009, true), b_val: (2, true), command: Rshift, dest: ["bv", "bw"] }
+ca, has Wire { state: Wait, val: 0, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (0, false), command: And, dest: ["cb"] }
+bz, has Wire { state: Wait, val: 0, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (0, false), command: Or, dest: ["cc"] }
+bq, has Wire { state: Signal, val: 62, src_a: "bn", src_b: "5", a_val: (2009, true), b_val: (5, true), command: Rshift, dest: ["br", "bs"] }
+cur_key: bq, has Wire { state: Signal, val: 62, src_a: "bn", src_b: "5", a_val: (2009, true), b_val: (5, true), command: Rshift, dest: ["br", "bs"] }
+br, has Wire { state: Wait, val: 0, src_a: "bp", src_b: "bq", a_val: (0, false), b_val: (62, true), command: Or, dest: ["bu"] }
+bs, has Wire { state: Wait, val: 0, src_a: "bp", src_b: "bq", a_val: (0, false), b_val: (62, true), command: And, dest: ["bt"] }
+cur_key: bo, has Wire { state: Signal, val: 502, src_a: "bn", src_b: "2", a_val: (2009, true), b_val: (2, true), command: Rshift, dest: ["bv", "bw"] }
+bv, has Wire { state: Wait, val: 0, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (0, false), command: Or, dest: ["by"] }
+bw, has Wire { state: Wait, val: 0, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (0, false), command: And, dest: ["bx"] }
+cur_key: cg, has Wire { state: Signal, val: 1004, src_a: "bn", src_b: "1", a_val: (2009, true), b_val: (1, true), command: Rshift, dest: ["ci"] }
+ci, has Wire { state: Wait, val: 0, src_a: "cg", src_b: "ch", a_val: (1004, true), b_val: (0, false), command: Or, dest: ["ck", "db", "cl", "cv", "cj", "cu"] }
+cur_key: bp, has Wire { state: Signal, val: 251, src_a: "bn", src_b: "3", a_val: (2009, true), b_val: (3, true), command: Rshift, dest: ["br", "bs"] }
+br, has Wire { state: Signal, val: 255, src_a: "bp", src_b: "bq", a_val: (251, true), b_val: (62, true), command: Or, dest: ["bu"] }
+bs, has Wire { state: Signal, val: 58, src_a: "bp", src_b: "bq", a_val: (251, true), b_val: (62, true), command: And, dest: ["bt"] }
+cur_key: bs, has Wire { state: Signal, val: 58, src_a: "bp", src_b: "bq", a_val: (251, true), b_val: (62, true), command: And, dest: ["bt"] }
+bt, has Wire { state: Signal, val: 65477, src_a: "bs", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bu"] }
+cur_key: bt, has Wire { state: Signal, val: 65477, src_a: "bs", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bu"] }
+bu, has Wire { state: Wait, val: 0, src_a: "br", src_b: "bt", a_val: (0, false), b_val: (65477, true), command: And, dest: ["bv", "bw"] }
+cur_key: br, has Wire { state: Signal, val: 255, src_a: "bp", src_b: "bq", a_val: (251, true), b_val: (62, true), command: Or, dest: ["bu"] }
+bu, has Wire { state: Signal, val: 197, src_a: "br", src_b: "bt", a_val: (255, true), b_val: (65477, true), command: And, dest: ["bv", "bw"] }
+cur_key: bu, has Wire { state: Signal, val: 197, src_a: "br", src_b: "bt", a_val: (255, true), b_val: (65477, true), command: And, dest: ["bv", "bw"] }
+bv, has Wire { state: Signal, val: 503, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (197, true), command: Or, dest: ["by"] }
+bw, has Wire { state: Signal, val: 196, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (197, true), command: And, dest: ["bx"] }
+cur_key: bw, has Wire { state: Signal, val: 196, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (197, true), command: And, dest: ["bx"] }
+bx, has Wire { state: Signal, val: 65339, src_a: "bw", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["by"] }
+cur_key: bx, has Wire { state: Signal, val: 65339, src_a: "bw", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["by"] }
+by, has Wire { state: Wait, val: 0, src_a: "bv", src_b: "bx", a_val: (0, false), b_val: (65339, true), command: And, dest: ["ca", "bz"] }
+cur_key: bv, has Wire { state: Signal, val: 503, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (197, true), command: Or, dest: ["by"] }
+by, has Wire { state: Signal, val: 307, src_a: "bv", src_b: "bx", a_val: (503, true), b_val: (65339, true), command: And, dest: ["ca", "bz"] }
+cur_key: by, has Wire { state: Signal, val: 307, src_a: "bv", src_b: "bx", a_val: (503, true), b_val: (65339, true), command: And, dest: ["ca", "bz"] }
+ca, has Wire { state: Signal, val: 273, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (307, true), command: And, dest: ["cb"] }
+bz, has Wire { state: Signal, val: 2043, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (307, true), command: Or, dest: ["cc"] }
+cur_key: bz, has Wire { state: Signal, val: 2043, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (307, true), command: Or, dest: ["cc"] }
+cc, has Wire { state: Wait, val: 0, src_a: "bz", src_b: "cb", a_val: (2043, true), b_val: (0, false), command: And, dest: ["cd"] }
+cur_key: ca, has Wire { state: Signal, val: 273, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (307, true), command: And, dest: ["cb"] }
+cb, has Wire { state: Signal, val: 65262, src_a: "ca", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cc"] }
+cur_key: cb, has Wire { state: Signal, val: 65262, src_a: "ca", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cc"] }
+cc, has Wire { state: Signal, val: 1770, src_a: "bz", src_b: "cb", a_val: (2043, true), b_val: (65262, true), command: And, dest: ["cd"] }
+cur_key: cc, has Wire { state: Signal, val: 1770, src_a: "bz", src_b: "cb", a_val: (2043, true), b_val: (65262, true), command: And, dest: ["cd"] }
+cd, has Wire { state: Signal, val: 0, src_a: "1", src_b: "cc", a_val: (1, true), b_val: (1770, true), command: And, dest: ["cf", "ch"] }
+cur_key: cd, has Wire { state: Signal, val: 0, src_a: "1", src_b: "cc", a_val: (1, true), b_val: (1770, true), command: And, dest: ["cf", "ch"] }
+cf, has Wire { state: Signal, val: 0, src_a: "ce", src_b: "cd", a_val: (0, true), b_val: (0, true), command: Or, dest: ["cz"] }
+ch, has Wire { state: Signal, val: 0, src_a: "cd", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["ci"] }
+cur_key: ch, has Wire { state: Signal, val: 0, src_a: "cd", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["ci"] }
+ci, has Wire { state: Signal, val: 1004, src_a: "cg", src_b: "ch", a_val: (1004, true), b_val: (0, true), command: Or, dest: ["ck", "db", "cl", "cv", "cj", "cu"] }
+cur_key: ci, has Wire { state: Signal, val: 1004, src_a: "cg", src_b: "ch", a_val: (1004, true), b_val: (0, true), command: Or, dest: ["ck", "db", "cl", "cv", "cj", "cu"] }
+ck, has Wire { state: Signal, val: 125, src_a: "ci", src_b: "3", a_val: (1004, true), b_val: (3, true), command: Rshift, dest: ["cn", "cm"] }
+db, has Wire { state: Signal, val: 502, src_a: "ci", src_b: "1", a_val: (1004, true), b_val: (1, true), command: Rshift, dest: ["dd"] }
+cl, has Wire { state: Signal, val: 31, src_a: "ci", src_b: "5", a_val: (1004, true), b_val: (5, true), command: Rshift, dest: ["cn", "cm"] }
+cv, has Wire { state: Wait, val: 0, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (0, false), command: And, dest: ["cw"] }
+cj, has Wire { state: Signal, val: 251, src_a: "ci", src_b: "2", a_val: (1004, true), b_val: (2, true), command: Rshift, dest: ["cr", "cq"] }
+cu, has Wire { state: Wait, val: 0, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (0, false), command: Or, dest: ["cx"] }
+cur_key: cj, has Wire { state: Signal, val: 251, src_a: "ci", src_b: "2", a_val: (1004, true), b_val: (2, true), command: Rshift, dest: ["cr", "cq"] }
+cr, has Wire { state: Wait, val: 0, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (0, false), command: And, dest: ["cs"] }
+cq, has Wire { state: Wait, val: 0, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (0, false), command: Or, dest: ["ct"] }
+cur_key: cl, has Wire { state: Signal, val: 31, src_a: "ci", src_b: "5", a_val: (1004, true), b_val: (5, true), command: Rshift, dest: ["cn", "cm"] }
+cn, has Wire { state: Wait, val: 0, src_a: "ck", src_b: "cl", a_val: (0, false), b_val: (31, true), command: And, dest: ["co"] }
+cm, has Wire { state: Wait, val: 0, src_a: "ck", src_b: "cl", a_val: (0, false), b_val: (31, true), command: Or, dest: ["cp"] }
+cur_key: db, has Wire { state: Signal, val: 502, src_a: "ci", src_b: "1", a_val: (1004, true), b_val: (1, true), command: Rshift, dest: ["dd"] }
+dd, has Wire { state: Wait, val: 0, src_a: "db", src_b: "dc", a_val: (502, true), b_val: (0, false), command: Or, dest: ["df", "de", "dw", "dg", "dp", "dq"] }
+cur_key: ck, has Wire { state: Signal, val: 125, src_a: "ci", src_b: "3", a_val: (1004, true), b_val: (3, true), command: Rshift, dest: ["cn", "cm"] }
+cn, has Wire { state: Signal, val: 29, src_a: "ck", src_b: "cl", a_val: (125, true), b_val: (31, true), command: And, dest: ["co"] }
+cm, has Wire { state: Signal, val: 127, src_a: "ck", src_b: "cl", a_val: (125, true), b_val: (31, true), command: Or, dest: ["cp"] }
+cur_key: cm, has Wire { state: Signal, val: 127, src_a: "ck", src_b: "cl", a_val: (125, true), b_val: (31, true), command: Or, dest: ["cp"] }
+cp, has Wire { state: Wait, val: 0, src_a: "cm", src_b: "co", a_val: (127, true), b_val: (0, false), command: And, dest: ["cr", "cq"] }
+cur_key: cn, has Wire { state: Signal, val: 29, src_a: "ck", src_b: "cl", a_val: (125, true), b_val: (31, true), command: And, dest: ["co"] }
+co, has Wire { state: Signal, val: 65506, src_a: "cn", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cp"] }
+cur_key: co, has Wire { state: Signal, val: 65506, src_a: "cn", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cp"] }
+cp, has Wire { state: Signal, val: 98, src_a: "cm", src_b: "co", a_val: (127, true), b_val: (65506, true), command: And, dest: ["cr", "cq"] }
+cur_key: cp, has Wire { state: Signal, val: 98, src_a: "cm", src_b: "co", a_val: (127, true), b_val: (65506, true), command: And, dest: ["cr", "cq"] }
+cr, has Wire { state: Signal, val: 98, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (98, true), command: And, dest: ["cs"] }
+cq, has Wire { state: Signal, val: 251, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (98, true), command: Or, dest: ["ct"] }
+cur_key: cq, has Wire { state: Signal, val: 251, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (98, true), command: Or, dest: ["ct"] }
+ct, has Wire { state: Wait, val: 0, src_a: "cq", src_b: "cs", a_val: (251, true), b_val: (0, false), command: And, dest: ["cv", "cu"] }
+cur_key: cr, has Wire { state: Signal, val: 98, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (98, true), command: And, dest: ["cs"] }
+cs, has Wire { state: Signal, val: 65437, src_a: "cr", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ct"] }
+cur_key: cs, has Wire { state: Signal, val: 65437, src_a: "cr", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ct"] }
+ct, has Wire { state: Signal, val: 153, src_a: "cq", src_b: "cs", a_val: (251, true), b_val: (65437, true), command: And, dest: ["cv", "cu"] }
+cur_key: ct, has Wire { state: Signal, val: 153, src_a: "cq", src_b: "cs", a_val: (251, true), b_val: (65437, true), command: And, dest: ["cv", "cu"] }
+cv, has Wire { state: Signal, val: 136, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (153, true), command: And, dest: ["cw"] }
+cu, has Wire { state: Signal, val: 1021, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (153, true), command: Or, dest: ["cx"] }
+cur_key: cu, has Wire { state: Signal, val: 1021, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (153, true), command: Or, dest: ["cx"] }
+cx, has Wire { state: Wait, val: 0, src_a: "cu", src_b: "cw", a_val: (1021, true), b_val: (0, false), command: And, dest: ["cy"] }
+cur_key: cv, has Wire { state: Signal, val: 136, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (153, true), command: And, dest: ["cw"] }
+cw, has Wire { state: Signal, val: 65399, src_a: "cv", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cx"] }
+cur_key: cw, has Wire { state: Signal, val: 65399, src_a: "cv", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cx"] }
+cx, has Wire { state: Signal, val: 885, src_a: "cu", src_b: "cw", a_val: (1021, true), b_val: (65399, true), command: And, dest: ["cy"] }
+cur_key: cx, has Wire { state: Signal, val: 885, src_a: "cu", src_b: "cw", a_val: (1021, true), b_val: (65399, true), command: And, dest: ["cy"] }
+cy, has Wire { state: Signal, val: 1, src_a: "1", src_b: "cx", a_val: (1, true), b_val: (885, true), command: And, dest: ["dc", "da"] }
+cur_key: cy, has Wire { state: Signal, val: 1, src_a: "1", src_b: "cx", a_val: (1, true), b_val: (885, true), command: And, dest: ["dc", "da"] }
+dc, has Wire { state: Signal, val: 32768, src_a: "cy", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["dd"] }
+da, has Wire { state: Wait, val: 0, src_a: "cz", src_b: "cy", a_val: (0, false), b_val: (1, true), command: Or, dest: ["du"] }
+cur_key: dc, has Wire { state: Signal, val: 32768, src_a: "cy", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["dd"] }
+dd, has Wire { state: Signal, val: 33270, src_a: "db", src_b: "dc", a_val: (502, true), b_val: (32768, true), command: Or, dest: ["df", "de", "dw", "dg", "dp", "dq"] }
+cur_key: dd, has Wire { state: Signal, val: 33270, src_a: "db", src_b: "dc", a_val: (502, true), b_val: (32768, true), command: Or, dest: ["df", "de", "dw", "dg", "dp", "dq"] }
+df, has Wire { state: Signal, val: 4158, src_a: "dd", src_b: "3", a_val: (33270, true), b_val: (3, true), command: Rshift, dest: ["di", "dh"] }
+de, has Wire { state: Signal, val: 8317, src_a: "dd", src_b: "2", a_val: (33270, true), b_val: (2, true), command: Rshift, dest: ["dl", "dm"] }
+dw, has Wire { state: Signal, val: 16635, src_a: "dd", src_b: "1", a_val: (33270, true), b_val: (1, true), command: Rshift, dest: ["dy"] }
+dg, has Wire { state: Signal, val: 1039, src_a: "dd", src_b: "5", a_val: (33270, true), b_val: (5, true), command: Rshift, dest: ["di", "dh"] }
+dp, has Wire { state: Wait, val: 0, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (0, false), command: Or, dest: ["ds"] }
+dq, has Wire { state: Wait, val: 0, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (0, false), command: And, dest: ["dr"] }
+cur_key: dg, has Wire { state: Signal, val: 1039, src_a: "dd", src_b: "5", a_val: (33270, true), b_val: (5, true), command: Rshift, dest: ["di", "dh"] }
+di, has Wire { state: Wait, val: 0, src_a: "df", src_b: "dg", a_val: (0, false), b_val: (1039, true), command: And, dest: ["dj"] }
+dh, has Wire { state: Wait, val: 0, src_a: "df", src_b: "dg", a_val: (0, false), b_val: (1039, true), command: Or, dest: ["dk"] }
+cur_key: dw, has Wire { state: Signal, val: 16635, src_a: "dd", src_b: "1", a_val: (33270, true), b_val: (1, true), command: Rshift, dest: ["dy"] }
+dy, has Wire { state: Wait, val: 0, src_a: "dw", src_b: "dx", a_val: (16635, true), b_val: (0, false), command: Or, dest: ["er", "ek", "dz", "el", "eb", "ea"] }
+cur_key: de, has Wire { state: Signal, val: 8317, src_a: "dd", src_b: "2", a_val: (33270, true), b_val: (2, true), command: Rshift, dest: ["dl", "dm"] }
+dl, has Wire { state: Wait, val: 0, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (0, false), command: Or, dest: ["do"] }
+dm, has Wire { state: Wait, val: 0, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (0, false), command: And, dest: ["dn"] }
+cur_key: df, has Wire { state: Signal, val: 4158, src_a: "dd", src_b: "3", a_val: (33270, true), b_val: (3, true), command: Rshift, dest: ["di", "dh"] }
+di, has Wire { state: Signal, val: 14, src_a: "df", src_b: "dg", a_val: (4158, true), b_val: (1039, true), command: And, dest: ["dj"] }
+dh, has Wire { state: Signal, val: 5183, src_a: "df", src_b: "dg", a_val: (4158, true), b_val: (1039, true), command: Or, dest: ["dk"] }
+cur_key: dh, has Wire { state: Signal, val: 5183, src_a: "df", src_b: "dg", a_val: (4158, true), b_val: (1039, true), command: Or, dest: ["dk"] }
+dk, has Wire { state: Wait, val: 0, src_a: "dh", src_b: "dj", a_val: (5183, true), b_val: (0, false), command: And, dest: ["dl", "dm"] }
+cur_key: di, has Wire { state: Signal, val: 14, src_a: "df", src_b: "dg", a_val: (4158, true), b_val: (1039, true), command: And, dest: ["dj"] }
+dj, has Wire { state: Signal, val: 65521, src_a: "di", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["dk"] }
+cur_key: dj, has Wire { state: Signal, val: 65521, src_a: "di", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["dk"] }
+dk, has Wire { state: Signal, val: 5169, src_a: "dh", src_b: "dj", a_val: (5183, true), b_val: (65521, true), command: And, dest: ["dl", "dm"] }
+cur_key: dk, has Wire { state: Signal, val: 5169, src_a: "dh", src_b: "dj", a_val: (5183, true), b_val: (65521, true), command: And, dest: ["dl", "dm"] }
+dl, has Wire { state: Signal, val: 13437, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (5169, true), command: Or, dest: ["do"] }
+dm, has Wire { state: Signal, val: 49, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (5169, true), command: And, dest: ["dn"] }
+cur_key: dm, has Wire { state: Signal, val: 49, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (5169, true), command: And, dest: ["dn"] }
+dn, has Wire { state: Signal, val: 65486, src_a: "dm", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["do"] }
+cur_key: dn, has Wire { state: Signal, val: 65486, src_a: "dm", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["do"] }
+do, has Wire { state: Wait, val: 0, src_a: "dl", src_b: "dn", a_val: (0, false), b_val: (65486, true), command: And, dest: ["dp", "dq"] }
+cur_key: dl, has Wire { state: Signal, val: 13437, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (5169, true), command: Or, dest: ["do"] }
+do, has Wire { state: Signal, val: 13388, src_a: "dl", src_b: "dn", a_val: (13437, true), b_val: (65486, true), command: And, dest: ["dp", "dq"] }
+cur_key: do, has Wire { state: Signal, val: 13388, src_a: "dl", src_b: "dn", a_val: (13437, true), b_val: (65486, true), command: And, dest: ["dp", "dq"] }
+dp, has Wire { state: Signal, val: 46590, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (13388, true), command: Or, dest: ["ds"] }
+dq, has Wire { state: Signal, val: 68, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (13388, true), command: And, dest: ["dr"] }
+cur_key: dq, has Wire { state: Signal, val: 68, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (13388, true), command: And, dest: ["dr"] }
+dr, has Wire { state: Signal, val: 65467, src_a: "dq", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ds"] }
+cur_key: dr, has Wire { state: Signal, val: 65467, src_a: "dq", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ds"] }
+ds, has Wire { state: Wait, val: 0, src_a: "dp", src_b: "dr", a_val: (0, false), b_val: (65467, true), command: And, dest: ["dt"] }
+cur_key: dp, has Wire { state: Signal, val: 46590, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (13388, true), command: Or, dest: ["ds"] }
+ds, has Wire { state: Signal, val: 46522, src_a: "dp", src_b: "dr", a_val: (46590, true), b_val: (65467, true), command: And, dest: ["dt"] }
+cur_key: ds, has Wire { state: Signal, val: 46522, src_a: "dp", src_b: "dr", a_val: (46590, true), b_val: (65467, true), command: And, dest: ["dt"] }
+dt, has Wire { state: Signal, val: 0, src_a: "1", src_b: "ds", a_val: (1, true), b_val: (46522, true), command: And, dest: ["dx", "dv"] }
+cur_key: dt, has Wire { state: Signal, val: 0, src_a: "1", src_b: "ds", a_val: (1, true), b_val: (46522, true), command: And, dest: ["dx", "dv"] }
+dx, has Wire { state: Signal, val: 0, src_a: "dt", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["dy"] }
+dv, has Wire { state: Wait, val: 0, src_a: "du", src_b: "dt", a_val: (0, false), b_val: (0, true), command: Or, dest: ["ep"] }
+cur_key: dx, has Wire { state: Signal, val: 0, src_a: "dt", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["dy"] }
+dy, has Wire { state: Signal, val: 16635, src_a: "dw", src_b: "dx", a_val: (16635, true), b_val: (0, true), command: Or, dest: ["er", "ek", "dz", "el", "eb", "ea"] }
+cur_key: dy, has Wire { state: Signal, val: 16635, src_a: "dw", src_b: "dx", a_val: (16635, true), b_val: (0, true), command: Or, dest: ["er", "ek", "dz", "el", "eb", "ea"] }
+er, has Wire { state: Signal, val: 8317, src_a: "dy", src_b: "1", a_val: (16635, true), b_val: (1, true), command: Rshift, dest: ["et"] }
+ek, has Wire { state: Wait, val: 0, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (0, false), command: Or, dest: ["en"] }
+dz, has Wire { state: Signal, val: 4158, src_a: "dy", src_b: "2", a_val: (16635, true), b_val: (2, true), command: Rshift, dest: ["eg", "eh"] }
+el, has Wire { state: Wait, val: 0, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (0, false), command: And, dest: ["em"] }
+eb, has Wire { state: Signal, val: 519, src_a: "dy", src_b: "5", a_val: (16635, true), b_val: (5, true), command: Rshift, dest: ["ed", "ec"] }
+ea, has Wire { state: Signal, val: 2079, src_a: "dy", src_b: "3", a_val: (16635, true), b_val: (3, true), command: Rshift, dest: ["ed", "ec"] }
+cur_key: ea, has Wire { state: Signal, val: 2079, src_a: "dy", src_b: "3", a_val: (16635, true), b_val: (3, true), command: Rshift, dest: ["ed", "ec"] }
+ed, has Wire { state: Wait, val: 0, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (0, false), command: And, dest: ["ee"] }
+ec, has Wire { state: Wait, val: 0, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (0, false), command: Or, dest: ["ef"] }
+cur_key: eb, has Wire { state: Signal, val: 519, src_a: "dy", src_b: "5", a_val: (16635, true), b_val: (5, true), command: Rshift, dest: ["ed", "ec"] }
+ed, has Wire { state: Signal, val: 7, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (519, true), command: And, dest: ["ee"] }
+ec, has Wire { state: Signal, val: 2591, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (519, true), command: Or, dest: ["ef"] }
+cur_key: ec, has Wire { state: Signal, val: 2591, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (519, true), command: Or, dest: ["ef"] }
+ef, has Wire { state: Wait, val: 0, src_a: "ec", src_b: "ee", a_val: (2591, true), b_val: (0, false), command: And, dest: ["eg", "eh"] }
+cur_key: ed, has Wire { state: Signal, val: 7, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (519, true), command: And, dest: ["ee"] }
+ee, has Wire { state: Signal, val: 65528, src_a: "ed", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ef"] }
+cur_key: ee, has Wire { state: Signal, val: 65528, src_a: "ed", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ef"] }
+ef, has Wire { state: Signal, val: 2584, src_a: "ec", src_b: "ee", a_val: (2591, true), b_val: (65528, true), command: And, dest: ["eg", "eh"] }
+cur_key: ef, has Wire { state: Signal, val: 2584, src_a: "ec", src_b: "ee", a_val: (2591, true), b_val: (65528, true), command: And, dest: ["eg", "eh"] }
+eg, has Wire { state: Wait, val: 0, src_a: "dz", src_b: "ef", a_val: (0, false), b_val: (2584, true), command: Or, dest: ["ej"] }
+eh, has Wire { state: Wait, val: 0, src_a: "dz", src_b: "ef", a_val: (0, false), b_val: (2584, true), command: And, dest: ["ei"] }
+cur_key: dz, has Wire { state: Signal, val: 4158, src_a: "dy", src_b: "2", a_val: (16635, true), b_val: (2, true), command: Rshift, dest: ["eg", "eh"] }
+eg, has Wire { state: Signal, val: 6718, src_a: "dz", src_b: "ef", a_val: (4158, true), b_val: (2584, true), command: Or, dest: ["ej"] }
+eh, has Wire { state: Signal, val: 24, src_a: "dz", src_b: "ef", a_val: (4158, true), b_val: (2584, true), command: And, dest: ["ei"] }
+cur_key: eh, has Wire { state: Signal, val: 24, src_a: "dz", src_b: "ef", a_val: (4158, true), b_val: (2584, true), command: And, dest: ["ei"] }
+ei, has Wire { state: Signal, val: 65511, src_a: "eh", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ej"] }
+cur_key: ei, has Wire { state: Signal, val: 65511, src_a: "eh", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ej"] }
+ej, has Wire { state: Wait, val: 0, src_a: "eg", src_b: "ei", a_val: (0, false), b_val: (65511, true), command: And, dest: ["ek", "el"] }
+cur_key: eg, has Wire { state: Signal, val: 6718, src_a: "dz", src_b: "ef", a_val: (4158, true), b_val: (2584, true), command: Or, dest: ["ej"] }
+ej, has Wire { state: Signal, val: 6694, src_a: "eg", src_b: "ei", a_val: (6718, true), b_val: (65511, true), command: And, dest: ["ek", "el"] }
+cur_key: ej, has Wire { state: Signal, val: 6694, src_a: "eg", src_b: "ei", a_val: (6718, true), b_val: (65511, true), command: And, dest: ["ek", "el"] }
+ek, has Wire { state: Signal, val: 23295, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (6694, true), command: Or, dest: ["en"] }
+el, has Wire { state: Signal, val: 34, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (6694, true), command: And, dest: ["em"] }
+cur_key: el, has Wire { state: Signal, val: 34, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (6694, true), command: And, dest: ["em"] }
+em, has Wire { state: Signal, val: 65501, src_a: "el", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["en"] }
+cur_key: em, has Wire { state: Signal, val: 65501, src_a: "el", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["en"] }
+en, has Wire { state: Wait, val: 0, src_a: "ek", src_b: "em", a_val: (0, false), b_val: (65501, true), command: And, dest: ["eo"] }
+cur_key: ek, has Wire { state: Signal, val: 23295, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (6694, true), command: Or, dest: ["en"] }
+en, has Wire { state: Signal, val: 23261, src_a: "ek", src_b: "em", a_val: (23295, true), b_val: (65501, true), command: And, dest: ["eo"] }
+cur_key: en, has Wire { state: Signal, val: 23261, src_a: "ek", src_b: "em", a_val: (23295, true), b_val: (65501, true), command: And, dest: ["eo"] }
+eo, has Wire { state: Signal, val: 1, src_a: "1", src_b: "en", a_val: (1, true), b_val: (23261, true), command: And, dest: ["es", "eq"] }
+cur_key: eo, has Wire { state: Signal, val: 1, src_a: "1", src_b: "en", a_val: (1, true), b_val: (23261, true), command: And, dest: ["es", "eq"] }
+es, has Wire { state: Signal, val: 32768, src_a: "eo", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["et"] }
+eq, has Wire { state: Wait, val: 0, src_a: "ep", src_b: "eo", a_val: (0, false), b_val: (1, true), command: Or, dest: ["fk"] }
+cur_key: es, has Wire { state: Signal, val: 32768, src_a: "eo", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["et"] }
+et, has Wire { state: Wait, val: 0, src_a: "er", src_b: "es", a_val: (0, false), b_val: (32768, true), command: Or, dest: ["eu", "ff", "fm", "fg", "ew", "ev"] }
+cur_key: er, has Wire { state: Signal, val: 8317, src_a: "dy", src_b: "1", a_val: (16635, true), b_val: (1, true), command: Rshift, dest: ["et"] }
+et, has Wire { state: Signal, val: 41085, src_a: "er", src_b: "es", a_val: (8317, true), b_val: (32768, true), command: Or, dest: ["eu", "ff", "fm", "fg", "ew", "ev"] }
+cur_key: et, has Wire { state: Signal, val: 41085, src_a: "er", src_b: "es", a_val: (8317, true), b_val: (32768, true), command: Or, dest: ["eu", "ff", "fm", "fg", "ew", "ev"] }
+eu, has Wire { state: Signal, val: 10271, src_a: "et", src_b: "2", a_val: (41085, true), b_val: (2, true), command: Rshift, dest: ["fc", "fb"] }
+ff, has Wire { state: Wait, val: 0, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (0, false), command: Or, dest: ["fi"] }
+fm, has Wire { state: Signal, val: 20542, src_a: "et", src_b: "1", a_val: (41085, true), b_val: (1, true), command: Rshift, dest: ["fo"] }
+fg, has Wire { state: Wait, val: 0, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (0, false), command: And, dest: ["fh"] }
+ew, has Wire { state: Signal, val: 1283, src_a: "et", src_b: "5", a_val: (41085, true), b_val: (5, true), command: Rshift, dest: ["ex", "ey"] }
+ev, has Wire { state: Signal, val: 5135, src_a: "et", src_b: "3", a_val: (41085, true), b_val: (3, true), command: Rshift, dest: ["ex", "ey"] }
+cur_key: ev, has Wire { state: Signal, val: 5135, src_a: "et", src_b: "3", a_val: (41085, true), b_val: (3, true), command: Rshift, dest: ["ex", "ey"] }
+ex, has Wire { state: Wait, val: 0, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (0, false), command: Or, dest: ["fa"] }
+ey, has Wire { state: Wait, val: 0, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (0, false), command: And, dest: ["ez"] }
+cur_key: ew, has Wire { state: Signal, val: 1283, src_a: "et", src_b: "5", a_val: (41085, true), b_val: (5, true), command: Rshift, dest: ["ex", "ey"] }
+ex, has Wire { state: Signal, val: 5391, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (1283, true), command: Or, dest: ["fa"] }
+ey, has Wire { state: Signal, val: 1027, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (1283, true), command: And, dest: ["ez"] }
+cur_key: ey, has Wire { state: Signal, val: 1027, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (1283, true), command: And, dest: ["ez"] }
+ez, has Wire { state: Signal, val: 64508, src_a: "ey", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fa"] }
+cur_key: ez, has Wire { state: Signal, val: 64508, src_a: "ey", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fa"] }
+fa, has Wire { state: Wait, val: 0, src_a: "ex", src_b: "ez", a_val: (0, false), b_val: (64508, true), command: And, dest: ["fc", "fb"] }
+cur_key: ex, has Wire { state: Signal, val: 5391, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (1283, true), command: Or, dest: ["fa"] }
+fa, has Wire { state: Signal, val: 4364, src_a: "ex", src_b: "ez", a_val: (5391, true), b_val: (64508, true), command: And, dest: ["fc", "fb"] }
+cur_key: fa, has Wire { state: Signal, val: 4364, src_a: "ex", src_b: "ez", a_val: (5391, true), b_val: (64508, true), command: And, dest: ["fc", "fb"] }
+fc, has Wire { state: Wait, val: 0, src_a: "eu", src_b: "fa", a_val: (0, false), b_val: (4364, true), command: And, dest: ["fd"] }
+fb, has Wire { state: Wait, val: 0, src_a: "eu", src_b: "fa", a_val: (0, false), b_val: (4364, true), command: Or, dest: ["fe"] }
+cur_key: fm, has Wire { state: Signal, val: 20542, src_a: "et", src_b: "1", a_val: (41085, true), b_val: (1, true), command: Rshift, dest: ["fo"] }
+fo, has Wire { state: Wait, val: 0, src_a: "fm", src_b: "fn", a_val: (20542, true), b_val: (0, false), command: Or, dest: ["ga", "fp", "fq", "gh", "fr", "gb"] }
+cur_key: eu, has Wire { state: Signal, val: 10271, src_a: "et", src_b: "2", a_val: (41085, true), b_val: (2, true), command: Rshift, dest: ["fc", "fb"] }
+fc, has Wire { state: Signal, val: 12, src_a: "eu", src_b: "fa", a_val: (10271, true), b_val: (4364, true), command: And, dest: ["fd"] }
+fb, has Wire { state: Signal, val: 14623, src_a: "eu", src_b: "fa", a_val: (10271, true), b_val: (4364, true), command: Or, dest: ["fe"] }
+cur_key: fb, has Wire { state: Signal, val: 14623, src_a: "eu", src_b: "fa", a_val: (10271, true), b_val: (4364, true), command: Or, dest: ["fe"] }
+fe, has Wire { state: Wait, val: 0, src_a: "fb", src_b: "fd", a_val: (14623, true), b_val: (0, false), command: And, dest: ["ff", "fg"] }
+cur_key: fc, has Wire { state: Signal, val: 12, src_a: "eu", src_b: "fa", a_val: (10271, true), b_val: (4364, true), command: And, dest: ["fd"] }
+fd, has Wire { state: Signal, val: 65523, src_a: "fc", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fe"] }
+cur_key: fd, has Wire { state: Signal, val: 65523, src_a: "fc", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fe"] }
+fe, has Wire { state: Signal, val: 14611, src_a: "fb", src_b: "fd", a_val: (14623, true), b_val: (65523, true), command: And, dest: ["ff", "fg"] }
+cur_key: fe, has Wire { state: Signal, val: 14611, src_a: "fb", src_b: "fd", a_val: (14623, true), b_val: (65523, true), command: And, dest: ["ff", "fg"] }
+ff, has Wire { state: Signal, val: 47487, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (14611, true), command: Or, dest: ["fi"] }
+fg, has Wire { state: Signal, val: 8209, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (14611, true), command: And, dest: ["fh"] }
+cur_key: fg, has Wire { state: Signal, val: 8209, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (14611, true), command: And, dest: ["fh"] }
+fh, has Wire { state: Signal, val: 57326, src_a: "fg", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fi"] }
+cur_key: fh, has Wire { state: Signal, val: 57326, src_a: "fg", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fi"] }
+fi, has Wire { state: Wait, val: 0, src_a: "ff", src_b: "fh", a_val: (0, false), b_val: (57326, true), command: And, dest: ["fj"] }
+cur_key: ff, has Wire { state: Signal, val: 47487, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (14611, true), command: Or, dest: ["fi"] }
+fi, has Wire { state: Signal, val: 39278, src_a: "ff", src_b: "fh", a_val: (47487, true), b_val: (57326, true), command: And, dest: ["fj"] }
+cur_key: fi, has Wire { state: Signal, val: 39278, src_a: "ff", src_b: "fh", a_val: (47487, true), b_val: (57326, true), command: And, dest: ["fj"] }
+fj, has Wire { state: Signal, val: 0, src_a: "1", src_b: "fi", a_val: (1, true), b_val: (39278, true), command: And, dest: ["fn", "fl"] }
+cur_key: fj, has Wire { state: Signal, val: 0, src_a: "1", src_b: "fi", a_val: (1, true), b_val: (39278, true), command: And, dest: ["fn", "fl"] }
+fn, has Wire { state: Signal, val: 0, src_a: "fj", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["fo"] }
+fl, has Wire { state: Wait, val: 0, src_a: "fk", src_b: "fj", a_val: (0, false), b_val: (0, true), command: Or, dest: ["gf"] }
+cur_key: fn, has Wire { state: Signal, val: 0, src_a: "fj", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["fo"] }
+fo, has Wire { state: Signal, val: 20542, src_a: "fm", src_b: "fn", a_val: (20542, true), b_val: (0, true), command: Or, dest: ["ga", "fp", "fq", "gh", "fr", "gb"] }
+cur_key: fo, has Wire { state: Signal, val: 20542, src_a: "fm", src_b: "fn", a_val: (20542, true), b_val: (0, true), command: Or, dest: ["ga", "fp", "fq", "gh", "fr", "gb"] }
+ga, has Wire { state: Wait, val: 0, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (0, false), command: Or, dest: ["gd"] }
+fp, has Wire { state: Signal, val: 5135, src_a: "fo", src_b: "2", a_val: (20542, true), b_val: (2, true), command: Rshift, dest: ["fx", "fw"] }
+fq, has Wire { state: Signal, val: 2567, src_a: "fo", src_b: "3", a_val: (20542, true), b_val: (3, true), command: Rshift, dest: ["ft", "fs"] }
+gh, has Wire { state: Signal, val: 10271, src_a: "fo", src_b: "1", a_val: (20542, true), b_val: (1, true), command: Rshift, dest: ["gj"] }
+fr, has Wire { state: Signal, val: 641, src_a: "fo", src_b: "5", a_val: (20542, true), b_val: (5, true), command: Rshift, dest: ["ft", "fs"] }
+gb, has Wire { state: Wait, val: 0, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (0, false), command: And, dest: ["gc"] }
+cur_key: fr, has Wire { state: Signal, val: 641, src_a: "fo", src_b: "5", a_val: (20542, true), b_val: (5, true), command: Rshift, dest: ["ft", "fs"] }
+ft, has Wire { state: Wait, val: 0, src_a: "fq", src_b: "fr", a_val: (0, false), b_val: (641, true), command: And, dest: ["fu"] }
+fs, has Wire { state: Wait, val: 0, src_a: "fq", src_b: "fr", a_val: (0, false), b_val: (641, true), command: Or, dest: ["fv"] }
+cur_key: gh, has Wire { state: Signal, val: 10271, src_a: "fo", src_b: "1", a_val: (20542, true), b_val: (1, true), command: Rshift, dest: ["gj"] }
+gj, has Wire { state: Wait, val: 0, src_a: "gh", src_b: "gi", a_val: (10271, true), b_val: (0, false), command: Or, dest: ["hc", "gm", "gw", "gk", "gv", "gl"] }
+cur_key: fq, has Wire { state: Signal, val: 2567, src_a: "fo", src_b: "3", a_val: (20542, true), b_val: (3, true), command: Rshift, dest: ["ft", "fs"] }
+ft, has Wire { state: Signal, val: 513, src_a: "fq", src_b: "fr", a_val: (2567, true), b_val: (641, true), command: And, dest: ["fu"] }
+fs, has Wire { state: Signal, val: 2695, src_a: "fq", src_b: "fr", a_val: (2567, true), b_val: (641, true), command: Or, dest: ["fv"] }
+cur_key: fs, has Wire { state: Signal, val: 2695, src_a: "fq", src_b: "fr", a_val: (2567, true), b_val: (641, true), command: Or, dest: ["fv"] }
+fv, has Wire { state: Wait, val: 0, src_a: "fs", src_b: "fu", a_val: (2695, true), b_val: (0, false), command: And, dest: ["fx", "fw"] }
+cur_key: ft, has Wire { state: Signal, val: 513, src_a: "fq", src_b: "fr", a_val: (2567, true), b_val: (641, true), command: And, dest: ["fu"] }
+fu, has Wire { state: Signal, val: 65022, src_a: "ft", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fv"] }
+cur_key: fu, has Wire { state: Signal, val: 65022, src_a: "ft", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fv"] }
+fv, has Wire { state: Signal, val: 2182, src_a: "fs", src_b: "fu", a_val: (2695, true), b_val: (65022, true), command: And, dest: ["fx", "fw"] }
+cur_key: fv, has Wire { state: Signal, val: 2182, src_a: "fs", src_b: "fu", a_val: (2695, true), b_val: (65022, true), command: And, dest: ["fx", "fw"] }
+fx, has Wire { state: Wait, val: 0, src_a: "fp", src_b: "fv", a_val: (0, false), b_val: (2182, true), command: And, dest: ["fy"] }
+fw, has Wire { state: Wait, val: 0, src_a: "fp", src_b: "fv", a_val: (0, false), b_val: (2182, true), command: Or, dest: ["fz"] }
+cur_key: fp, has Wire { state: Signal, val: 5135, src_a: "fo", src_b: "2", a_val: (20542, true), b_val: (2, true), command: Rshift, dest: ["fx", "fw"] }
+fx, has Wire { state: Signal, val: 6, src_a: "fp", src_b: "fv", a_val: (5135, true), b_val: (2182, true), command: And, dest: ["fy"] }
+fw, has Wire { state: Signal, val: 7311, src_a: "fp", src_b: "fv", a_val: (5135, true), b_val: (2182, true), command: Or, dest: ["fz"] }
+cur_key: fw, has Wire { state: Signal, val: 7311, src_a: "fp", src_b: "fv", a_val: (5135, true), b_val: (2182, true), command: Or, dest: ["fz"] }
+fz, has Wire { state: Wait, val: 0, src_a: "fw", src_b: "fy", a_val: (7311, true), b_val: (0, false), command: And, dest: ["ga", "gb"] }
+cur_key: fx, has Wire { state: Signal, val: 6, src_a: "fp", src_b: "fv", a_val: (5135, true), b_val: (2182, true), command: And, dest: ["fy"] }
+fy, has Wire { state: Signal, val: 65529, src_a: "fx", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fz"] }
+cur_key: fy, has Wire { state: Signal, val: 65529, src_a: "fx", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fz"] }
+fz, has Wire { state: Signal, val: 7305, src_a: "fw", src_b: "fy", a_val: (7311, true), b_val: (65529, true), command: And, dest: ["ga", "gb"] }
+cur_key: fz, has Wire { state: Signal, val: 7305, src_a: "fw", src_b: "fy", a_val: (7311, true), b_val: (65529, true), command: And, dest: ["ga", "gb"] }
+ga, has Wire { state: Signal, val: 23743, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (7305, true), command: Or, dest: ["gd"] }
+gb, has Wire { state: Signal, val: 4104, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (7305, true), command: And, dest: ["gc"] }
+cur_key: gb, has Wire { state: Signal, val: 4104, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (7305, true), command: And, dest: ["gc"] }
+gc, has Wire { state: Signal, val: 61431, src_a: "gb", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gd"] }
+cur_key: gc, has Wire { state: Signal, val: 61431, src_a: "gb", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gd"] }
+gd, has Wire { state: Wait, val: 0, src_a: "ga", src_b: "gc", a_val: (0, false), b_val: (61431, true), command: And, dest: ["ge"] }
+cur_key: ga, has Wire { state: Signal, val: 23743, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (7305, true), command: Or, dest: ["gd"] }
+gd, has Wire { state: Signal, val: 19639, src_a: "ga", src_b: "gc", a_val: (23743, true), b_val: (61431, true), command: And, dest: ["ge"] }
+cur_key: gd, has Wire { state: Signal, val: 19639, src_a: "ga", src_b: "gc", a_val: (23743, true), b_val: (61431, true), command: And, dest: ["ge"] }
+ge, has Wire { state: Signal, val: 1, src_a: "1", src_b: "gd", a_val: (1, true), b_val: (19639, true), command: And, dest: ["gg", "gi"] }
+cur_key: ge, has Wire { state: Signal, val: 1, src_a: "1", src_b: "gd", a_val: (1, true), b_val: (19639, true), command: And, dest: ["gg", "gi"] }
+gg, has Wire { state: Wait, val: 0, src_a: "gf", src_b: "ge", a_val: (0, false), b_val: (1, true), command: Or, dest: ["ha"] }
+gi, has Wire { state: Signal, val: 32768, src_a: "ge", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["gj"] }
+cur_key: gi, has Wire { state: Signal, val: 32768, src_a: "ge", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["gj"] }
+gj, has Wire { state: Signal, val: 43039, src_a: "gh", src_b: "gi", a_val: (10271, true), b_val: (32768, true), command: Or, dest: ["hc", "gm", "gw", "gk", "gv", "gl"] }
+cur_key: gj, has Wire { state: Signal, val: 43039, src_a: "gh", src_b: "gi", a_val: (10271, true), b_val: (32768, true), command: Or, dest: ["hc", "gm", "gw", "gk", "gv", "gl"] }
+hc, has Wire { state: Signal, val: 21519, src_a: "gj", src_b: "1", a_val: (43039, true), b_val: (1, true), command: Rshift, dest: ["he"] }
+gm, has Wire { state: Signal, val: 1344, src_a: "gj", src_b: "5", a_val: (43039, true), b_val: (5, true), command: Rshift, dest: ["gn", "go"] }
+gw, has Wire { state: Wait, val: 0, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (0, false), command: And, dest: ["gx"] }
+gk, has Wire { state: Signal, val: 10759, src_a: "gj", src_b: "2", a_val: (43039, true), b_val: (2, true), command: Rshift, dest: ["gr", "gs"] }
+gv, has Wire { state: Wait, val: 0, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (0, false), command: Or, dest: ["gy"] }
+gl, has Wire { state: Signal, val: 5379, src_a: "gj", src_b: "3", a_val: (43039, true), b_val: (3, true), command: Rshift, dest: ["gn", "go"] }
+cur_key: gl, has Wire { state: Signal, val: 5379, src_a: "gj", src_b: "3", a_val: (43039, true), b_val: (3, true), command: Rshift, dest: ["gn", "go"] }
+gn, has Wire { state: Wait, val: 0, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (0, false), command: Or, dest: ["gq"] }
+go, has Wire { state: Wait, val: 0, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (0, false), command: And, dest: ["gp"] }
+cur_key: gk, has Wire { state: Signal, val: 10759, src_a: "gj", src_b: "2", a_val: (43039, true), b_val: (2, true), command: Rshift, dest: ["gr", "gs"] }
+gr, has Wire { state: Wait, val: 0, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (0, false), command: Or, dest: ["gu"] }
+gs, has Wire { state: Wait, val: 0, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (0, false), command: And, dest: ["gt"] }
+cur_key: gm, has Wire { state: Signal, val: 1344, src_a: "gj", src_b: "5", a_val: (43039, true), b_val: (5, true), command: Rshift, dest: ["gn", "go"] }
+gn, has Wire { state: Signal, val: 5443, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (1344, true), command: Or, dest: ["gq"] }
+go, has Wire { state: Signal, val: 1280, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (1344, true), command: And, dest: ["gp"] }
+cur_key: go, has Wire { state: Signal, val: 1280, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (1344, true), command: And, dest: ["gp"] }
+gp, has Wire { state: Signal, val: 64255, src_a: "go", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gq"] }
+cur_key: gp, has Wire { state: Signal, val: 64255, src_a: "go", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gq"] }
+gq, has Wire { state: Wait, val: 0, src_a: "gn", src_b: "gp", a_val: (0, false), b_val: (64255, true), command: And, dest: ["gr", "gs"] }
+cur_key: gn, has Wire { state: Signal, val: 5443, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (1344, true), command: Or, dest: ["gq"] }
+gq, has Wire { state: Signal, val: 4163, src_a: "gn", src_b: "gp", a_val: (5443, true), b_val: (64255, true), command: And, dest: ["gr", "gs"] }
+cur_key: gq, has Wire { state: Signal, val: 4163, src_a: "gn", src_b: "gp", a_val: (5443, true), b_val: (64255, true), command: And, dest: ["gr", "gs"] }
+gr, has Wire { state: Signal, val: 14919, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (4163, true), command: Or, dest: ["gu"] }
+gs, has Wire { state: Signal, val: 3, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (4163, true), command: And, dest: ["gt"] }
+cur_key: gs, has Wire { state: Signal, val: 3, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (4163, true), command: And, dest: ["gt"] }
+gt, has Wire { state: Signal, val: 65532, src_a: "gs", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gu"] }
+cur_key: gt, has Wire { state: Signal, val: 65532, src_a: "gs", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gu"] }
+gu, has Wire { state: Wait, val: 0, src_a: "gr", src_b: "gt", a_val: (0, false), b_val: (65532, true), command: And, dest: ["gw", "gv"] }
+cur_key: gr, has Wire { state: Signal, val: 14919, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (4163, true), command: Or, dest: ["gu"] }
+gu, has Wire { state: Signal, val: 14916, src_a: "gr", src_b: "gt", a_val: (14919, true), b_val: (65532, true), command: And, dest: ["gw", "gv"] }
+cur_key: gu, has Wire { state: Signal, val: 14916, src_a: "gr", src_b: "gt", a_val: (14919, true), b_val: (65532, true), command: And, dest: ["gw", "gv"] }
+gw, has Wire { state: Signal, val: 10244, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (14916, true), command: And, dest: ["gx"] }
+gv, has Wire { state: Signal, val: 47711, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (14916, true), command: Or, dest: ["gy"] }
+cur_key: gv, has Wire { state: Signal, val: 47711, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (14916, true), command: Or, dest: ["gy"] }
+gy, has Wire { state: Wait, val: 0, src_a: "gv", src_b: "gx", a_val: (47711, true), b_val: (0, false), command: And, dest: ["gz"] }
+cur_key: gw, has Wire { state: Signal, val: 10244, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (14916, true), command: And, dest: ["gx"] }
+gx, has Wire { state: Signal, val: 55291, src_a: "gw", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gy"] }
+cur_key: gx, has Wire { state: Signal, val: 55291, src_a: "gw", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gy"] }
+gy, has Wire { state: Signal, val: 37467, src_a: "gv", src_b: "gx", a_val: (47711, true), b_val: (55291, true), command: And, dest: ["gz"] }
+cur_key: gy, has Wire { state: Signal, val: 37467, src_a: "gv", src_b: "gx", a_val: (47711, true), b_val: (55291, true), command: And, dest: ["gz"] }
+gz, has Wire { state: Signal, val: 1, src_a: "1", src_b: "gy", a_val: (1, true), b_val: (37467, true), command: And, dest: ["hd", "hb"] }
+cur_key: gz, has Wire { state: Signal, val: 1, src_a: "1", src_b: "gy", a_val: (1, true), b_val: (37467, true), command: And, dest: ["hd", "hb"] }
+hd, has Wire { state: Signal, val: 32768, src_a: "gz", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["he"] }
+hb, has Wire { state: Wait, val: 0, src_a: "ha", src_b: "gz", a_val: (0, false), b_val: (1, true), command: Or, dest: ["hv"] }
+cur_key: hd, has Wire { state: Signal, val: 32768, src_a: "gz", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["he"] }
+he, has Wire { state: Wait, val: 0, src_a: "hc", src_b: "hd", a_val: (0, false), b_val: (32768, true), command: Or, dest: ["hq", "hg", "hf", "hr", "hx", "hh"] }
+cur_key: hc, has Wire { state: Signal, val: 21519, src_a: "gj", src_b: "1", a_val: (43039, true), b_val: (1, true), command: Rshift, dest: ["he"] }
+he, has Wire { state: Signal, val: 54287, src_a: "hc", src_b: "hd", a_val: (21519, true), b_val: (32768, true), command: Or, dest: ["hq", "hg", "hf", "hr", "hx", "hh"] }
+cur_key: he, has Wire { state: Signal, val: 54287, src_a: "hc", src_b: "hd", a_val: (21519, true), b_val: (32768, true), command: Or, dest: ["hq", "hg", "hf", "hr", "hx", "hh"] }
+hq, has Wire { state: Wait, val: 0, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (0, false), command: Or, dest: ["ht"] }
+hg, has Wire { state: Signal, val: 6785, src_a: "he", src_b: "3", a_val: (54287, true), b_val: (3, true), command: Rshift, dest: ["hi", "hj"] }
+hf, has Wire { state: Signal, val: 13571, src_a: "he", src_b: "2", a_val: (54287, true), b_val: (2, true), command: Rshift, dest: ["hm", "hn"] }
+hr, has Wire { state: Wait, val: 0, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (0, false), command: And, dest: ["hs"] }
+hx, has Wire { state: Signal, val: 27143, src_a: "he", src_b: "1", a_val: (54287, true), b_val: (1, true), command: Rshift, dest: ["hz"] }
+hh, has Wire { state: Signal, val: 1696, src_a: "he", src_b: "5", a_val: (54287, true), b_val: (5, true), command: Rshift, dest: ["hi", "hj"] }
+cur_key: hh, has Wire { state: Signal, val: 1696, src_a: "he", src_b: "5", a_val: (54287, true), b_val: (5, true), command: Rshift, dest: ["hi", "hj"] }
+hi, has Wire { state: Wait, val: 0, src_a: "hg", src_b: "hh", a_val: (0, false), b_val: (1696, true), command: Or, dest: ["hl"] }
+hj, has Wire { state: Wait, val: 0, src_a: "hg", src_b: "hh", a_val: (0, false), b_val: (1696, true), command: And, dest: ["hk"] }
+cur_key: hx, has Wire { state: Signal, val: 27143, src_a: "he", src_b: "1", a_val: (54287, true), b_val: (1, true), command: Rshift, dest: ["hz"] }
+hz, has Wire { state: Wait, val: 0, src_a: "hx", src_b: "hy", a_val: (27143, true), b_val: (0, false), command: Or, dest: ["ia", "ib", "is", "il", "ic", "im"] }
+cur_key: hf, has Wire { state: Signal, val: 13571, src_a: "he", src_b: "2", a_val: (54287, true), b_val: (2, true), command: Rshift, dest: ["hm", "hn"] }
+hm, has Wire { state: Wait, val: 0, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (0, false), command: Or, dest: ["hp"] }
+hn, has Wire { state: Wait, val: 0, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (0, false), command: And, dest: ["ho"] }
+cur_key: hg, has Wire { state: Signal, val: 6785, src_a: "he", src_b: "3", a_val: (54287, true), b_val: (3, true), command: Rshift, dest: ["hi", "hj"] }
+hi, has Wire { state: Signal, val: 7841, src_a: "hg", src_b: "hh", a_val: (6785, true), b_val: (1696, true), command: Or, dest: ["hl"] }
+hj, has Wire { state: Signal, val: 640, src_a: "hg", src_b: "hh", a_val: (6785, true), b_val: (1696, true), command: And, dest: ["hk"] }
+cur_key: hj, has Wire { state: Signal, val: 640, src_a: "hg", src_b: "hh", a_val: (6785, true), b_val: (1696, true), command: And, dest: ["hk"] }
+hk, has Wire { state: Signal, val: 64895, src_a: "hj", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["hl"] }
+cur_key: hk, has Wire { state: Signal, val: 64895, src_a: "hj", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["hl"] }
+hl, has Wire { state: Wait, val: 0, src_a: "hi", src_b: "hk", a_val: (0, false), b_val: (64895, true), command: And, dest: ["hm", "hn"] }
+cur_key: hi, has Wire { state: Signal, val: 7841, src_a: "hg", src_b: "hh", a_val: (6785, true), b_val: (1696, true), command: Or, dest: ["hl"] }
+hl, has Wire { state: Signal, val: 7201, src_a: "hi", src_b: "hk", a_val: (7841, true), b_val: (64895, true), command: And, dest: ["hm", "hn"] }
+cur_key: hl, has Wire { state: Signal, val: 7201, src_a: "hi", src_b: "hk", a_val: (7841, true), b_val: (64895, true), command: And, dest: ["hm", "hn"] }
+hm, has Wire { state: Signal, val: 15651, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (7201, true), command: Or, dest: ["hp"] }
+hn, has Wire { state: Signal, val: 5121, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (7201, true), command: And, dest: ["ho"] }
+cur_key: hn, has Wire { state: Signal, val: 5121, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (7201, true), command: And, dest: ["ho"] }
+ho, has Wire { state: Signal, val: 60414, src_a: "hn", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["hp"] }
+cur_key: ho, has Wire { state: Signal, val: 60414, src_a: "hn", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["hp"] }
+hp, has Wire { state: Wait, val: 0, src_a: "hm", src_b: "ho", a_val: (0, false), b_val: (60414, true), command: And, dest: ["hq", "hr"] }
+cur_key: hm, has Wire { state: Signal, val: 15651, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (7201, true), command: Or, dest: ["hp"] }
+hp, has Wire { state: Signal, val: 10530, src_a: "hm", src_b: "ho", a_val: (15651, true), b_val: (60414, true), command: And, dest: ["hq", "hr"] }
+cur_key: hp, has Wire { state: Signal, val: 10530, src_a: "hm", src_b: "ho", a_val: (15651, true), b_val: (60414, true), command: And, dest: ["hq", "hr"] }
+hq, has Wire { state: Signal, val: 64815, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (10530, true), command: Or, dest: ["ht"] }
+hr, has Wire { state: Signal, val: 2, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (10530, true), command: And, dest: ["hs"] }
+cur_key: hr, has Wire { state: Signal, val: 2, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (10530, true), command: And, dest: ["hs"] }
+hs, has Wire { state: Signal, val: 65533, src_a: "hr", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ht"] }
+cur_key: hs, has Wire { state: Signal, val: 65533, src_a: "hr", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ht"] }
+ht, has Wire { state: Wait, val: 0, src_a: "hq", src_b: "hs", a_val: (0, false), b_val: (65533, true), command: And, dest: ["hu"] }
+cur_key: hq, has Wire { state: Signal, val: 64815, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (10530, true), command: Or, dest: ["ht"] }
+ht, has Wire { state: Signal, val: 64813, src_a: "hq", src_b: "hs", a_val: (64815, true), b_val: (65533, true), command: And, dest: ["hu"] }
+cur_key: ht, has Wire { state: Signal, val: 64813, src_a: "hq", src_b: "hs", a_val: (64815, true), b_val: (65533, true), command: And, dest: ["hu"] }
+hu, has Wire { state: Signal, val: 1, src_a: "1", src_b: "ht", a_val: (1, true), b_val: (64813, true), command: And, dest: ["hw", "hy"] }
+cur_key: hu, has Wire { state: Signal, val: 1, src_a: "1", src_b: "ht", a_val: (1, true), b_val: (64813, true), command: And, dest: ["hw", "hy"] }
+hw, has Wire { state: Wait, val: 0, src_a: "hv", src_b: "hu", a_val: (0, false), b_val: (1, true), command: Or, dest: ["iq"] }
+hy, has Wire { state: Signal, val: 32768, src_a: "hu", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["hz"] }
+cur_key: hy, has Wire { state: Signal, val: 32768, src_a: "hu", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["hz"] }
+hz, has Wire { state: Signal, val: 59911, src_a: "hx", src_b: "hy", a_val: (27143, true), b_val: (32768, true), command: Or, dest: ["ia", "ib", "is", "il", "ic", "im"] }
+cur_key: hz, has Wire { state: Signal, val: 59911, src_a: "hx", src_b: "hy", a_val: (27143, true), b_val: (32768, true), command: Or, dest: ["ia", "ib", "is", "il", "ic", "im"] }
+ia, has Wire { state: Signal, val: 14977, src_a: "hz", src_b: "2", a_val: (59911, true), b_val: (2, true), command: Rshift, dest: ["ii", "ih"] }
+ib, has Wire { state: Signal, val: 7488, src_a: "hz", src_b: "3", a_val: (59911, true), b_val: (3, true), command: Rshift, dest: ["id", "ie"] }
+is, has Wire { state: Signal, val: 29955, src_a: "hz", src_b: "1", a_val: (59911, true), b_val: (1, true), command: Rshift, dest: ["iu"] }
+il, has Wire { state: Wait, val: 0, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (0, false), command: Or, dest: ["io"] }
+ic, has Wire { state: Signal, val: 1872, src_a: "hz", src_b: "5", a_val: (59911, true), b_val: (5, true), command: Rshift, dest: ["id", "ie"] }
+im, has Wire { state: Wait, val: 0, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (0, false), command: And, dest: ["in"] }
+cur_key: ic, has Wire { state: Signal, val: 1872, src_a: "hz", src_b: "5", a_val: (59911, true), b_val: (5, true), command: Rshift, dest: ["id", "ie"] }
+id, has Wire { state: Wait, val: 0, src_a: "ib", src_b: "ic", a_val: (0, false), b_val: (1872, true), command: Or, dest: ["ig"] }
+ie, has Wire { state: Wait, val: 0, src_a: "ib", src_b: "ic", a_val: (0, false), b_val: (1872, true), command: And, dest: ["if"] }
+cur_key: is, has Wire { state: Signal, val: 29955, src_a: "hz", src_b: "1", a_val: (59911, true), b_val: (1, true), command: Rshift, dest: ["iu"] }
+iu, has Wire { state: Wait, val: 0, src_a: "is", src_b: "it", a_val: (29955, true), b_val: (0, false), command: Or, dest: ["jn", "iw", "iv", "jh", "ix", "jg"] }
+cur_key: ib, has Wire { state: Signal, val: 7488, src_a: "hz", src_b: "3", a_val: (59911, true), b_val: (3, true), command: Rshift, dest: ["id", "ie"] }
+id, has Wire { state: Signal, val: 8016, src_a: "ib", src_b: "ic", a_val: (7488, true), b_val: (1872, true), command: Or, dest: ["ig"] }
+ie, has Wire { state: Signal, val: 1344, src_a: "ib", src_b: "ic", a_val: (7488, true), b_val: (1872, true), command: And, dest: ["if"] }
+cur_key: ie, has Wire { state: Signal, val: 1344, src_a: "ib", src_b: "ic", a_val: (7488, true), b_val: (1872, true), command: And, dest: ["if"] }
+if, has Wire { state: Signal, val: 64191, src_a: "ie", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ig"] }
+cur_key: if, has Wire { state: Signal, val: 64191, src_a: "ie", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ig"] }
+ig, has Wire { state: Wait, val: 0, src_a: "id", src_b: "if", a_val: (0, false), b_val: (64191, true), command: And, dest: ["ii", "ih"] }
+cur_key: id, has Wire { state: Signal, val: 8016, src_a: "ib", src_b: "ic", a_val: (7488, true), b_val: (1872, true), command: Or, dest: ["ig"] }
+ig, has Wire { state: Signal, val: 6672, src_a: "id", src_b: "if", a_val: (8016, true), b_val: (64191, true), command: And, dest: ["ii", "ih"] }
+cur_key: ig, has Wire { state: Signal, val: 6672, src_a: "id", src_b: "if", a_val: (8016, true), b_val: (64191, true), command: And, dest: ["ii", "ih"] }
+ii, has Wire { state: Wait, val: 0, src_a: "ia", src_b: "ig", a_val: (0, false), b_val: (6672, true), command: And, dest: ["ij"] }
+ih, has Wire { state: Wait, val: 0, src_a: "ia", src_b: "ig", a_val: (0, false), b_val: (6672, true), command: Or, dest: ["ik"] }
+cur_key: ia, has Wire { state: Signal, val: 14977, src_a: "hz", src_b: "2", a_val: (59911, true), b_val: (2, true), command: Rshift, dest: ["ii", "ih"] }
+ii, has Wire { state: Signal, val: 6656, src_a: "ia", src_b: "ig", a_val: (14977, true), b_val: (6672, true), command: And, dest: ["ij"] }
+ih, has Wire { state: Signal, val: 14993, src_a: "ia", src_b: "ig", a_val: (14977, true), b_val: (6672, true), command: Or, dest: ["ik"] }
+cur_key: ih, has Wire { state: Signal, val: 14993, src_a: "ia", src_b: "ig", a_val: (14977, true), b_val: (6672, true), command: Or, dest: ["ik"] }
+ik, has Wire { state: Wait, val: 0, src_a: "ih", src_b: "ij", a_val: (14993, true), b_val: (0, false), command: And, dest: ["il", "im"] }
+cur_key: ii, has Wire { state: Signal, val: 6656, src_a: "ia", src_b: "ig", a_val: (14977, true), b_val: (6672, true), command: And, dest: ["ij"] }
+ij, has Wire { state: Signal, val: 58879, src_a: "ii", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ik"] }
+cur_key: ij, has Wire { state: Signal, val: 58879, src_a: "ii", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ik"] }
+ik, has Wire { state: Signal, val: 8337, src_a: "ih", src_b: "ij", a_val: (14993, true), b_val: (58879, true), command: And, dest: ["il", "im"] }
+cur_key: ik, has Wire { state: Signal, val: 8337, src_a: "ih", src_b: "ij", a_val: (14993, true), b_val: (58879, true), command: And, dest: ["il", "im"] }
+il, has Wire { state: Signal, val: 60055, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (8337, true), command: Or, dest: ["io"] }
+im, has Wire { state: Signal, val: 8193, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (8337, true), command: And, dest: ["in"] }
+cur_key: im, has Wire { state: Signal, val: 8193, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (8337, true), command: And, dest: ["in"] }
+in, has Wire { state: Signal, val: 57342, src_a: "im", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["io"] }
+cur_key: in, has Wire { state: Signal, val: 57342, src_a: "im", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["io"] }
+io, has Wire { state: Wait, val: 0, src_a: "il", src_b: "in", a_val: (0, false), b_val: (57342, true), command: And, dest: ["ip"] }
+cur_key: il, has Wire { state: Signal, val: 60055, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (8337, true), command: Or, dest: ["io"] }
+io, has Wire { state: Signal, val: 51862, src_a: "il", src_b: "in", a_val: (60055, true), b_val: (57342, true), command: And, dest: ["ip"] }
+cur_key: io, has Wire { state: Signal, val: 51862, src_a: "il", src_b: "in", a_val: (60055, true), b_val: (57342, true), command: And, dest: ["ip"] }
+ip, has Wire { state: Signal, val: 0, src_a: "1", src_b: "io", a_val: (1, true), b_val: (51862, true), command: And, dest: ["it", "ir"] }
+cur_key: ip, has Wire { state: Signal, val: 0, src_a: "1", src_b: "io", a_val: (1, true), b_val: (51862, true), command: And, dest: ["it", "ir"] }
+it, has Wire { state: Signal, val: 0, src_a: "ip", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["iu"] }
+ir, has Wire { state: Wait, val: 0, src_a: "iq", src_b: "ip", a_val: (0, false), b_val: (0, true), command: Or, dest: ["jl"] }
+cur_key: it, has Wire { state: Signal, val: 0, src_a: "ip", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["iu"] }
+iu, has Wire { state: Signal, val: 29955, src_a: "is", src_b: "it", a_val: (29955, true), b_val: (0, true), command: Or, dest: ["jn", "iw", "iv", "jh", "ix", "jg"] }
+cur_key: iu, has Wire { state: Signal, val: 29955, src_a: "is", src_b: "it", a_val: (29955, true), b_val: (0, true), command: Or, dest: ["jn", "iw", "iv", "jh", "ix", "jg"] }
+jn, has Wire { state: Signal, val: 14977, src_a: "iu", src_b: "1", a_val: (29955, true), b_val: (1, true), command: Rshift, dest: ["jp"] }
+iw, has Wire { state: Signal, val: 3744, src_a: "iu", src_b: "3", a_val: (29955, true), b_val: (3, true), command: Rshift, dest: ["iy", "iz"] }
+iv, has Wire { state: Signal, val: 7488, src_a: "iu", src_b: "2", a_val: (29955, true), b_val: (2, true), command: Rshift, dest: ["jc", "jd"] }
+jh, has Wire { state: Wait, val: 0, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (0, false), command: And, dest: ["ji"] }
+ix, has Wire { state: Signal, val: 936, src_a: "iu", src_b: "5", a_val: (29955, true), b_val: (5, true), command: Rshift, dest: ["iy", "iz"] }
+jg, has Wire { state: Wait, val: 0, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (0, false), command: Or, dest: ["jj"] }
+cur_key: ix, has Wire { state: Signal, val: 936, src_a: "iu", src_b: "5", a_val: (29955, true), b_val: (5, true), command: Rshift, dest: ["iy", "iz"] }
+iy, has Wire { state: Wait, val: 0, src_a: "iw", src_b: "ix", a_val: (0, false), b_val: (936, true), command: Or, dest: ["jb"] }
+iz, has Wire { state: Wait, val: 0, src_a: "iw", src_b: "ix", a_val: (0, false), b_val: (936, true), command: And, dest: ["ja"] }
+cur_key: iv, has Wire { state: Signal, val: 7488, src_a: "iu", src_b: "2", a_val: (29955, true), b_val: (2, true), command: Rshift, dest: ["jc", "jd"] }
+jc, has Wire { state: Wait, val: 0, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (0, false), command: Or, dest: ["jf"] }
+jd, has Wire { state: Wait, val: 0, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (0, false), command: And, dest: ["je"] }
+cur_key: iw, has Wire { state: Signal, val: 3744, src_a: "iu", src_b: "3", a_val: (29955, true), b_val: (3, true), command: Rshift, dest: ["iy", "iz"] }
+iy, has Wire { state: Signal, val: 4008, src_a: "iw", src_b: "ix", a_val: (3744, true), b_val: (936, true), command: Or, dest: ["jb"] }
+iz, has Wire { state: Signal, val: 672, src_a: "iw", src_b: "ix", a_val: (3744, true), b_val: (936, true), command: And, dest: ["ja"] }
+cur_key: iz, has Wire { state: Signal, val: 672, src_a: "iw", src_b: "ix", a_val: (3744, true), b_val: (936, true), command: And, dest: ["ja"] }
+ja, has Wire { state: Signal, val: 64863, src_a: "iz", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jb"] }
+cur_key: ja, has Wire { state: Signal, val: 64863, src_a: "iz", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jb"] }
+jb, has Wire { state: Wait, val: 0, src_a: "iy", src_b: "ja", a_val: (0, false), b_val: (64863, true), command: And, dest: ["jc", "jd"] }
+cur_key: iy, has Wire { state: Signal, val: 4008, src_a: "iw", src_b: "ix", a_val: (3744, true), b_val: (936, true), command: Or, dest: ["jb"] }
+jb, has Wire { state: Signal, val: 3336, src_a: "iy", src_b: "ja", a_val: (4008, true), b_val: (64863, true), command: And, dest: ["jc", "jd"] }
+cur_key: jb, has Wire { state: Signal, val: 3336, src_a: "iy", src_b: "ja", a_val: (4008, true), b_val: (64863, true), command: And, dest: ["jc", "jd"] }
+jc, has Wire { state: Signal, val: 7496, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (3336, true), command: Or, dest: ["jf"] }
+jd, has Wire { state: Signal, val: 3328, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (3336, true), command: And, dest: ["je"] }
+cur_key: jd, has Wire { state: Signal, val: 3328, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (3336, true), command: And, dest: ["je"] }
+je, has Wire { state: Signal, val: 62207, src_a: "jd", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jf"] }
+cur_key: je, has Wire { state: Signal, val: 62207, src_a: "jd", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jf"] }
+jf, has Wire { state: Wait, val: 0, src_a: "jc", src_b: "je", a_val: (0, false), b_val: (62207, true), command: And, dest: ["jh", "jg"] }
+cur_key: jc, has Wire { state: Signal, val: 7496, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (3336, true), command: Or, dest: ["jf"] }
+jf, has Wire { state: Signal, val: 4168, src_a: "jc", src_b: "je", a_val: (7496, true), b_val: (62207, true), command: And, dest: ["jh", "jg"] }
+cur_key: jf, has Wire { state: Signal, val: 4168, src_a: "jc", src_b: "je", a_val: (7496, true), b_val: (62207, true), command: And, dest: ["jh", "jg"] }
+jh, has Wire { state: Signal, val: 4096, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (4168, true), command: And, dest: ["ji"] }
+jg, has Wire { state: Signal, val: 30027, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (4168, true), command: Or, dest: ["jj"] }
+cur_key: jg, has Wire { state: Signal, val: 30027, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (4168, true), command: Or, dest: ["jj"] }
+jj, has Wire { state: Wait, val: 0, src_a: "jg", src_b: "ji", a_val: (30027, true), b_val: (0, false), command: And, dest: ["jk"] }
+cur_key: jh, has Wire { state: Signal, val: 4096, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (4168, true), command: And, dest: ["ji"] }
+ji, has Wire { state: Signal, val: 61439, src_a: "jh", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jj"] }
+cur_key: ji, has Wire { state: Signal, val: 61439, src_a: "jh", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jj"] }
+jj, has Wire { state: Signal, val: 25931, src_a: "jg", src_b: "ji", a_val: (30027, true), b_val: (61439, true), command: And, dest: ["jk"] }
+cur_key: jj, has Wire { state: Signal, val: 25931, src_a: "jg", src_b: "ji", a_val: (30027, true), b_val: (61439, true), command: And, dest: ["jk"] }
+jk, has Wire { state: Signal, val: 1, src_a: "1", src_b: "jj", a_val: (1, true), b_val: (25931, true), command: And, dest: ["jo", "jm"] }
+cur_key: jk, has Wire { state: Signal, val: 1, src_a: "1", src_b: "jj", a_val: (1, true), b_val: (25931, true), command: And, dest: ["jo", "jm"] }
+jo, has Wire { state: Signal, val: 32768, src_a: "jk", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["jp"] }
+jm, has Wire { state: Wait, val: 0, src_a: "jl", src_b: "jk", a_val: (0, false), b_val: (1, true), command: Or, dest: ["kg"] }
+cur_key: jo, has Wire { state: Signal, val: 32768, src_a: "jk", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["jp"] }
+jp, has Wire { state: Wait, val: 0, src_a: "jn", src_b: "jo", a_val: (0, false), b_val: (32768, true), command: Or, dest: ["jq", "js", "ki", "kb", "jr", "kc"] }
+cur_key: jn, has Wire { state: Signal, val: 14977, src_a: "iu", src_b: "1", a_val: (29955, true), b_val: (1, true), command: Rshift, dest: ["jp"] }
+jp, has Wire { state: Signal, val: 47745, src_a: "jn", src_b: "jo", a_val: (14977, true), b_val: (32768, true), command: Or, dest: ["jq", "js", "ki", "kb", "jr", "kc"] }
+cur_key: jp, has Wire { state: Signal, val: 47745, src_a: "jn", src_b: "jo", a_val: (14977, true), b_val: (32768, true), command: Or, dest: ["jq", "js", "ki", "kb", "jr", "kc"] }
+jq, has Wire { state: Signal, val: 11936, src_a: "jp", src_b: "2", a_val: (47745, true), b_val: (2, true), command: Rshift, dest: ["jx", "jy"] }
+js, has Wire { state: Signal, val: 1492, src_a: "jp", src_b: "5", a_val: (47745, true), b_val: (5, true), command: Rshift, dest: ["ju", "jt"] }
+ki, has Wire { state: Signal, val: 23872, src_a: "jp", src_b: "1", a_val: (47745, true), b_val: (1, true), command: Rshift, dest: ["kk"] }
+kb, has Wire { state: Wait, val: 0, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (0, false), command: Or, dest: ["ke"] }
+jr, has Wire { state: Signal, val: 5968, src_a: "jp", src_b: "3", a_val: (47745, true), b_val: (3, true), command: Rshift, dest: ["ju", "jt"] }
+kc, has Wire { state: Wait, val: 0, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (0, false), command: And, dest: ["kd"] }
+cur_key: jr, has Wire { state: Signal, val: 5968, src_a: "jp", src_b: "3", a_val: (47745, true), b_val: (3, true), command: Rshift, dest: ["ju", "jt"] }
+ju, has Wire { state: Wait, val: 0, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (0, false), command: And, dest: ["jv"] }
+jt, has Wire { state: Wait, val: 0, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (0, false), command: Or, dest: ["jw"] }
+cur_key: ki, has Wire { state: Signal, val: 23872, src_a: "jp", src_b: "1", a_val: (47745, true), b_val: (1, true), command: Rshift, dest: ["kk"] }
+kk, has Wire { state: Wait, val: 0, src_a: "ki", src_b: "kj", a_val: (23872, true), b_val: (0, false), command: Or, dest: ["kl", "km", "kx", "kn", "kw", "ld"] }
+cur_key: js, has Wire { state: Signal, val: 1492, src_a: "jp", src_b: "5", a_val: (47745, true), b_val: (5, true), command: Rshift, dest: ["ju", "jt"] }
+ju, has Wire { state: Signal, val: 1360, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (1492, true), command: And, dest: ["jv"] }
+jt, has Wire { state: Signal, val: 6100, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (1492, true), command: Or, dest: ["jw"] }
+cur_key: jt, has Wire { state: Signal, val: 6100, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (1492, true), command: Or, dest: ["jw"] }
+jw, has Wire { state: Wait, val: 0, src_a: "jt", src_b: "jv", a_val: (6100, true), b_val: (0, false), command: And, dest: ["jx", "jy"] }
+cur_key: ju, has Wire { state: Signal, val: 1360, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (1492, true), command: And, dest: ["jv"] }
+jv, has Wire { state: Signal, val: 64175, src_a: "ju", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jw"] }
+cur_key: jv, has Wire { state: Signal, val: 64175, src_a: "ju", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jw"] }
+jw, has Wire { state: Signal, val: 4740, src_a: "jt", src_b: "jv", a_val: (6100, true), b_val: (64175, true), command: And, dest: ["jx", "jy"] }
+cur_key: jw, has Wire { state: Signal, val: 4740, src_a: "jt", src_b: "jv", a_val: (6100, true), b_val: (64175, true), command: And, dest: ["jx", "jy"] }
+jx, has Wire { state: Wait, val: 0, src_a: "jq", src_b: "jw", a_val: (0, false), b_val: (4740, true), command: Or, dest: ["ka"] }
+jy, has Wire { state: Wait, val: 0, src_a: "jq", src_b: "jw", a_val: (0, false), b_val: (4740, true), command: And, dest: ["jz"] }
+cur_key: jq, has Wire { state: Signal, val: 11936, src_a: "jp", src_b: "2", a_val: (47745, true), b_val: (2, true), command: Rshift, dest: ["jx", "jy"] }
+jx, has Wire { state: Signal, val: 16036, src_a: "jq", src_b: "jw", a_val: (11936, true), b_val: (4740, true), command: Or, dest: ["ka"] }
+jy, has Wire { state: Signal, val: 640, src_a: "jq", src_b: "jw", a_val: (11936, true), b_val: (4740, true), command: And, dest: ["jz"] }
+cur_key: jy, has Wire { state: Signal, val: 640, src_a: "jq", src_b: "jw", a_val: (11936, true), b_val: (4740, true), command: And, dest: ["jz"] }
+jz, has Wire { state: Signal, val: 64895, src_a: "jy", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ka"] }
+cur_key: jz, has Wire { state: Signal, val: 64895, src_a: "jy", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ka"] }
+ka, has Wire { state: Wait, val: 0, src_a: "jx", src_b: "jz", a_val: (0, false), b_val: (64895, true), command: And, dest: ["kb", "kc"] }
+cur_key: jx, has Wire { state: Signal, val: 16036, src_a: "jq", src_b: "jw", a_val: (11936, true), b_val: (4740, true), command: Or, dest: ["ka"] }
+ka, has Wire { state: Signal, val: 15396, src_a: "jx", src_b: "jz", a_val: (16036, true), b_val: (64895, true), command: And, dest: ["kb", "kc"] }
+cur_key: ka, has Wire { state: Signal, val: 15396, src_a: "jx", src_b: "jz", a_val: (16036, true), b_val: (64895, true), command: And, dest: ["kb", "kc"] }
+kb, has Wire { state: Signal, val: 48805, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (15396, true), command: Or, dest: ["ke"] }
+kc, has Wire { state: Signal, val: 14336, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (15396, true), command: And, dest: ["kd"] }
+cur_key: kc, has Wire { state: Signal, val: 14336, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (15396, true), command: And, dest: ["kd"] }
+kd, has Wire { state: Signal, val: 51199, src_a: "kc", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ke"] }
+cur_key: kd, has Wire { state: Signal, val: 51199, src_a: "kc", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ke"] }
+ke, has Wire { state: Wait, val: 0, src_a: "kb", src_b: "kd", a_val: (0, false), b_val: (51199, true), command: And, dest: ["kf"] }
+cur_key: kb, has Wire { state: Signal, val: 48805, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (15396, true), command: Or, dest: ["ke"] }
+ke, has Wire { state: Signal, val: 34469, src_a: "kb", src_b: "kd", a_val: (48805, true), b_val: (51199, true), command: And, dest: ["kf"] }
+cur_key: ke, has Wire { state: Signal, val: 34469, src_a: "kb", src_b: "kd", a_val: (48805, true), b_val: (51199, true), command: And, dest: ["kf"] }
+kf, has Wire { state: Signal, val: 1, src_a: "1", src_b: "ke", a_val: (1, true), b_val: (34469, true), command: And, dest: ["kh", "kj"] }
+cur_key: kf, has Wire { state: Signal, val: 1, src_a: "1", src_b: "ke", a_val: (1, true), b_val: (34469, true), command: And, dest: ["kh", "kj"] }
+kh, has Wire { state: Wait, val: 0, src_a: "kg", src_b: "kf", a_val: (0, false), b_val: (1, true), command: Or, dest: ["lb"] }
+kj, has Wire { state: Signal, val: 32768, src_a: "kf", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["kk"] }
+cur_key: kj, has Wire { state: Signal, val: 32768, src_a: "kf", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["kk"] }
+kk, has Wire { state: Signal, val: 56640, src_a: "ki", src_b: "kj", a_val: (23872, true), b_val: (32768, true), command: Or, dest: ["kl", "km", "kx", "kn", "kw", "ld"] }
+cur_key: kk, has Wire { state: Signal, val: 56640, src_a: "ki", src_b: "kj", a_val: (23872, true), b_val: (32768, true), command: Or, dest: ["kl", "km", "kx", "kn", "kw", "ld"] }
+kl, has Wire { state: Signal, val: 14160, src_a: "kk", src_b: "2", a_val: (56640, true), b_val: (2, true), command: Rshift, dest: ["ks", "kt"] }
+km, has Wire { state: Signal, val: 7080, src_a: "kk", src_b: "3", a_val: (56640, true), b_val: (3, true), command: Rshift, dest: ["kp", "ko"] }
+kx, has Wire { state: Wait, val: 0, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (0, false), command: And, dest: ["ky"] }
+kn, has Wire { state: Signal, val: 1770, src_a: "kk", src_b: "5", a_val: (56640, true), b_val: (5, true), command: Rshift, dest: ["kp", "ko"] }
+kw, has Wire { state: Wait, val: 0, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (0, false), command: Or, dest: ["kz"] }
+ld, has Wire { state: Signal, val: 28320, src_a: "kk", src_b: "1", a_val: (56640, true), b_val: (1, true), command: Rshift, dest: ["lf"] }
+cur_key: ld, has Wire { state: Signal, val: 28320, src_a: "kk", src_b: "1", a_val: (56640, true), b_val: (1, true), command: Rshift, dest: ["lf"] }
+lf, has Wire { state: Wait, val: 0, src_a: "ld", src_b: "le", a_val: (28320, true), b_val: (0, false), command: Or, dest: ["ls", "lg", "lh", "li", "lr", "ly"] }
+cur_key: kn, has Wire { state: Signal, val: 1770, src_a: "kk", src_b: "5", a_val: (56640, true), b_val: (5, true), command: Rshift, dest: ["kp", "ko"] }
+kp, has Wire { state: Wait, val: 0, src_a: "km", src_b: "kn", a_val: (0, false), b_val: (1770, true), command: And, dest: ["kq"] }
+ko, has Wire { state: Wait, val: 0, src_a: "km", src_b: "kn", a_val: (0, false), b_val: (1770, true), command: Or, dest: ["kr"] }
+cur_key: km, has Wire { state: Signal, val: 7080, src_a: "kk", src_b: "3", a_val: (56640, true), b_val: (3, true), command: Rshift, dest: ["kp", "ko"] }
+kp, has Wire { state: Signal, val: 680, src_a: "km", src_b: "kn", a_val: (7080, true), b_val: (1770, true), command: And, dest: ["kq"] }
+ko, has Wire { state: Signal, val: 8170, src_a: "km", src_b: "kn", a_val: (7080, true), b_val: (1770, true), command: Or, dest: ["kr"] }
+cur_key: ko, has Wire { state: Signal, val: 8170, src_a: "km", src_b: "kn", a_val: (7080, true), b_val: (1770, true), command: Or, dest: ["kr"] }
+kr, has Wire { state: Wait, val: 0, src_a: "ko", src_b: "kq", a_val: (8170, true), b_val: (0, false), command: And, dest: ["ks", "kt"] }
+cur_key: kp, has Wire { state: Signal, val: 680, src_a: "km", src_b: "kn", a_val: (7080, true), b_val: (1770, true), command: And, dest: ["kq"] }
+kq, has Wire { state: Signal, val: 64855, src_a: "kp", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kr"] }
+cur_key: kq, has Wire { state: Signal, val: 64855, src_a: "kp", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kr"] }
+kr, has Wire { state: Signal, val: 7490, src_a: "ko", src_b: "kq", a_val: (8170, true), b_val: (64855, true), command: And, dest: ["ks", "kt"] }
+cur_key: kr, has Wire { state: Signal, val: 7490, src_a: "ko", src_b: "kq", a_val: (8170, true), b_val: (64855, true), command: And, dest: ["ks", "kt"] }
+ks, has Wire { state: Wait, val: 0, src_a: "kl", src_b: "kr", a_val: (0, false), b_val: (7490, true), command: Or, dest: ["kv"] }
+kt, has Wire { state: Wait, val: 0, src_a: "kl", src_b: "kr", a_val: (0, false), b_val: (7490, true), command: And, dest: ["ku"] }
+cur_key: kl, has Wire { state: Signal, val: 14160, src_a: "kk", src_b: "2", a_val: (56640, true), b_val: (2, true), command: Rshift, dest: ["ks", "kt"] }
+ks, has Wire { state: Signal, val: 16210, src_a: "kl", src_b: "kr", a_val: (14160, true), b_val: (7490, true), command: Or, dest: ["kv"] }
+kt, has Wire { state: Signal, val: 5440, src_a: "kl", src_b: "kr", a_val: (14160, true), b_val: (7490, true), command: And, dest: ["ku"] }
+cur_key: kt, has Wire { state: Signal, val: 5440, src_a: "kl", src_b: "kr", a_val: (14160, true), b_val: (7490, true), command: And, dest: ["ku"] }
+ku, has Wire { state: Signal, val: 60095, src_a: "kt", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kv"] }
+cur_key: ku, has Wire { state: Signal, val: 60095, src_a: "kt", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kv"] }
+kv, has Wire { state: Wait, val: 0, src_a: "ks", src_b: "ku", a_val: (0, false), b_val: (60095, true), command: And, dest: ["kx", "kw"] }
+cur_key: ks, has Wire { state: Signal, val: 16210, src_a: "kl", src_b: "kr", a_val: (14160, true), b_val: (7490, true), command: Or, dest: ["kv"] }
+kv, has Wire { state: Signal, val: 10770, src_a: "ks", src_b: "ku", a_val: (16210, true), b_val: (60095, true), command: And, dest: ["kx", "kw"] }
+cur_key: kv, has Wire { state: Signal, val: 10770, src_a: "ks", src_b: "ku", a_val: (16210, true), b_val: (60095, true), command: And, dest: ["kx", "kw"] }
+kx, has Wire { state: Signal, val: 2048, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (10770, true), command: And, dest: ["ky"] }
+kw, has Wire { state: Signal, val: 65362, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (10770, true), command: Or, dest: ["kz"] }
+cur_key: kw, has Wire { state: Signal, val: 65362, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (10770, true), command: Or, dest: ["kz"] }
+kz, has Wire { state: Wait, val: 0, src_a: "kw", src_b: "ky", a_val: (65362, true), b_val: (0, false), command: And, dest: ["la"] }
+cur_key: kx, has Wire { state: Signal, val: 2048, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (10770, true), command: And, dest: ["ky"] }
+ky, has Wire { state: Signal, val: 63487, src_a: "kx", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kz"] }
+cur_key: ky, has Wire { state: Signal, val: 63487, src_a: "kx", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kz"] }
+kz, has Wire { state: Signal, val: 63314, src_a: "kw", src_b: "ky", a_val: (65362, true), b_val: (63487, true), command: And, dest: ["la"] }
+cur_key: kz, has Wire { state: Signal, val: 63314, src_a: "kw", src_b: "ky", a_val: (65362, true), b_val: (63487, true), command: And, dest: ["la"] }
+la, has Wire { state: Signal, val: 0, src_a: "1", src_b: "kz", a_val: (1, true), b_val: (63314, true), command: And, dest: ["lc", "le"] }
+cur_key: la, has Wire { state: Signal, val: 0, src_a: "1", src_b: "kz", a_val: (1, true), b_val: (63314, true), command: And, dest: ["lc", "le"] }
+lc, has Wire { state: Wait, val: 0, src_a: "lb", src_b: "la", a_val: (0, false), b_val: (0, true), command: Or, dest: ["lw"] }
+le, has Wire { state: Signal, val: 0, src_a: "la", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["lf"] }
+cur_key: le, has Wire { state: Signal, val: 0, src_a: "la", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["lf"] }
+lf, has Wire { state: Signal, val: 28320, src_a: "ld", src_b: "le", a_val: (28320, true), b_val: (0, true), command: Or, dest: ["ls", "lg", "lh", "li", "lr", "ly"] }
+cur_key: lf, has Wire { state: Signal, val: 28320, src_a: "ld", src_b: "le", a_val: (28320, true), b_val: (0, true), command: Or, dest: ["ls", "lg", "lh", "li", "lr", "ly"] }
+ls, has Wire { state: Wait, val: 0, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (0, false), command: And, dest: ["lt"] }
+lg, has Wire { state: Signal, val: 7080, src_a: "lf", src_b: "2", a_val: (28320, true), b_val: (2, true), command: Rshift, dest: ["ln", "lo"] }
+lh, has Wire { state: Signal, val: 3540, src_a: "lf", src_b: "3", a_val: (28320, true), b_val: (3, true), command: Rshift, dest: ["lk", "lj"] }
+li, has Wire { state: Signal, val: 885, src_a: "lf", src_b: "5", a_val: (28320, true), b_val: (5, true), command: Rshift, dest: ["lk", "lj"] }
+lr, has Wire { state: Wait, val: 0, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (0, false), command: Or, dest: ["lu"] }
+ly, has Wire { state: Signal, val: 14160, src_a: "lf", src_b: "1", a_val: (28320, true), b_val: (1, true), command: Rshift, dest: ["ma"] }
+cur_key: ly, has Wire { state: Signal, val: 14160, src_a: "lf", src_b: "1", a_val: (28320, true), b_val: (1, true), command: Rshift, dest: ["ma"] }
+ma, has Wire { state: Wait, val: 0, src_a: "ly", src_b: "lz", a_val: (14160, true), b_val: (0, false), command: Or, dest: [] }
+cur_key: li, has Wire { state: Signal, val: 885, src_a: "lf", src_b: "5", a_val: (28320, true), b_val: (5, true), command: Rshift, dest: ["lk", "lj"] }
+lk, has Wire { state: Wait, val: 0, src_a: "lh", src_b: "li", a_val: (0, false), b_val: (885, true), command: And, dest: ["ll"] }
+lj, has Wire { state: Wait, val: 0, src_a: "lh", src_b: "li", a_val: (0, false), b_val: (885, true), command: Or, dest: ["lm"] }
+cur_key: lh, has Wire { state: Signal, val: 3540, src_a: "lf", src_b: "3", a_val: (28320, true), b_val: (3, true), command: Rshift, dest: ["lk", "lj"] }
+lk, has Wire { state: Signal, val: 340, src_a: "lh", src_b: "li", a_val: (3540, true), b_val: (885, true), command: And, dest: ["ll"] }
+lj, has Wire { state: Signal, val: 4085, src_a: "lh", src_b: "li", a_val: (3540, true), b_val: (885, true), command: Or, dest: ["lm"] }
+cur_key: lj, has Wire { state: Signal, val: 4085, src_a: "lh", src_b: "li", a_val: (3540, true), b_val: (885, true), command: Or, dest: ["lm"] }
+lm, has Wire { state: Wait, val: 0, src_a: "lj", src_b: "ll", a_val: (4085, true), b_val: (0, false), command: And, dest: ["ln", "lo"] }
+cur_key: lk, has Wire { state: Signal, val: 340, src_a: "lh", src_b: "li", a_val: (3540, true), b_val: (885, true), command: And, dest: ["ll"] }
+ll, has Wire { state: Signal, val: 65195, src_a: "lk", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lm"] }
+cur_key: ll, has Wire { state: Signal, val: 65195, src_a: "lk", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lm"] }
+lm, has Wire { state: Signal, val: 3745, src_a: "lj", src_b: "ll", a_val: (4085, true), b_val: (65195, true), command: And, dest: ["ln", "lo"] }
+cur_key: lm, has Wire { state: Signal, val: 3745, src_a: "lj", src_b: "ll", a_val: (4085, true), b_val: (65195, true), command: And, dest: ["ln", "lo"] }
+ln, has Wire { state: Wait, val: 0, src_a: "lg", src_b: "lm", a_val: (0, false), b_val: (3745, true), command: Or, dest: ["lq"] }
+lo, has Wire { state: Wait, val: 0, src_a: "lg", src_b: "lm", a_val: (0, false), b_val: (3745, true), command: And, dest: ["lp"] }
+cur_key: lg, has Wire { state: Signal, val: 7080, src_a: "lf", src_b: "2", a_val: (28320, true), b_val: (2, true), command: Rshift, dest: ["ln", "lo"] }
+ln, has Wire { state: Signal, val: 8105, src_a: "lg", src_b: "lm", a_val: (7080, true), b_val: (3745, true), command: Or, dest: ["lq"] }
+lo, has Wire { state: Signal, val: 2720, src_a: "lg", src_b: "lm", a_val: (7080, true), b_val: (3745, true), command: And, dest: ["lp"] }
+cur_key: lo, has Wire { state: Signal, val: 2720, src_a: "lg", src_b: "lm", a_val: (7080, true), b_val: (3745, true), command: And, dest: ["lp"] }
+lp, has Wire { state: Signal, val: 62815, src_a: "lo", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lq"] }
+cur_key: lp, has Wire { state: Signal, val: 62815, src_a: "lo", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lq"] }
+lq, has Wire { state: Wait, val: 0, src_a: "ln", src_b: "lp", a_val: (0, false), b_val: (62815, true), command: And, dest: ["ls", "lr"] }
+cur_key: ln, has Wire { state: Signal, val: 8105, src_a: "lg", src_b: "lm", a_val: (7080, true), b_val: (3745, true), command: Or, dest: ["lq"] }
+lq, has Wire { state: Signal, val: 5385, src_a: "ln", src_b: "lp", a_val: (8105, true), b_val: (62815, true), command: And, dest: ["ls", "lr"] }
+cur_key: lq, has Wire { state: Signal, val: 5385, src_a: "ln", src_b: "lp", a_val: (8105, true), b_val: (62815, true), command: And, dest: ["ls", "lr"] }
+ls, has Wire { state: Signal, val: 1024, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (5385, true), command: And, dest: ["lt"] }
+lr, has Wire { state: Signal, val: 32681, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (5385, true), command: Or, dest: ["lu"] }
+cur_key: lr, has Wire { state: Signal, val: 32681, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (5385, true), command: Or, dest: ["lu"] }
+lu, has Wire { state: Wait, val: 0, src_a: "lr", src_b: "lt", a_val: (32681, true), b_val: (0, false), command: And, dest: ["lv"] }
+cur_key: ls, has Wire { state: Signal, val: 1024, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (5385, true), command: And, dest: ["lt"] }
+lt, has Wire { state: Signal, val: 64511, src_a: "ls", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lu"] }
+cur_key: lt, has Wire { state: Signal, val: 64511, src_a: "ls", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lu"] }
+lu, has Wire { state: Signal, val: 31657, src_a: "lr", src_b: "lt", a_val: (32681, true), b_val: (64511, true), command: And, dest: ["lv"] }
+cur_key: lu, has Wire { state: Signal, val: 31657, src_a: "lr", src_b: "lt", a_val: (32681, true), b_val: (64511, true), command: And, dest: ["lv"] }
+lv, has Wire { state: Signal, val: 1, src_a: "1", src_b: "lu", a_val: (1, true), b_val: (31657, true), command: And, dest: ["lz", "lx"] }
+cur_key: lv, has Wire { state: Signal, val: 1, src_a: "1", src_b: "lu", a_val: (1, true), b_val: (31657, true), command: And, dest: ["lz", "lx"] }
+lz, has Wire { state: Signal, val: 32768, src_a: "lv", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["ma"] }
+lx, has Wire { state: Wait, val: 0, src_a: "lw", src_b: "lv", a_val: (0, false), b_val: (1, true), command: Or, dest: ["a"] }
+cur_key: lz, has Wire { state: Signal, val: 32768, src_a: "lv", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["ma"] }
+ma, has Wire { state: Signal, val: 46928, src_a: "ly", src_b: "lz", a_val: (14160, true), b_val: (32768, true), command: Or, dest: [] }
+cur_key: ma, has Wire { state: Signal, val: 46928, src_a: "ly", src_b: "lz", a_val: (14160, true), b_val: (32768, true), command: Or, dest: [] }
+cur_key: cf, has Wire { state: Signal, val: 0, src_a: "ce", src_b: "cd", a_val: (0, true), b_val: (0, true), command: Or, dest: ["cz"] }
+cz, has Wire { state: Signal, val: 0, src_a: "cf", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["da"] }
+cur_key: cz, has Wire { state: Signal, val: 0, src_a: "cf", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["da"] }
+da, has Wire { state: Signal, val: 1, src_a: "cz", src_b: "cy", a_val: (0, true), b_val: (1, true), command: Or, dest: ["du"] }
+cur_key: da, has Wire { state: Signal, val: 1, src_a: "cz", src_b: "cy", a_val: (0, true), b_val: (1, true), command: Or, dest: ["du"] }
+du, has Wire { state: Signal, val: 2, src_a: "da", src_b: "1", a_val: (1, true), b_val: (1, true), command: Lshift, dest: ["dv"] }
+cur_key: du, has Wire { state: Signal, val: 2, src_a: "da", src_b: "1", a_val: (1, true), b_val: (1, true), command: Lshift, dest: ["dv"] }
+dv, has Wire { state: Signal, val: 2, src_a: "du", src_b: "dt", a_val: (2, true), b_val: (0, true), command: Or, dest: ["ep"] }
+cur_key: dv, has Wire { state: Signal, val: 2, src_a: "du", src_b: "dt", a_val: (2, true), b_val: (0, true), command: Or, dest: ["ep"] }
+ep, has Wire { state: Signal, val: 4, src_a: "dv", src_b: "1", a_val: (2, true), b_val: (1, true), command: Lshift, dest: ["eq"] }
+cur_key: ep, has Wire { state: Signal, val: 4, src_a: "dv", src_b: "1", a_val: (2, true), b_val: (1, true), command: Lshift, dest: ["eq"] }
+eq, has Wire { state: Signal, val: 5, src_a: "ep", src_b: "eo", a_val: (4, true), b_val: (1, true), command: Or, dest: ["fk"] }
+cur_key: eq, has Wire { state: Signal, val: 5, src_a: "ep", src_b: "eo", a_val: (4, true), b_val: (1, true), command: Or, dest: ["fk"] }
+fk, has Wire { state: Signal, val: 10, src_a: "eq", src_b: "1", a_val: (5, true), b_val: (1, true), command: Lshift, dest: ["fl"] }
+cur_key: fk, has Wire { state: Signal, val: 10, src_a: "eq", src_b: "1", a_val: (5, true), b_val: (1, true), command: Lshift, dest: ["fl"] }
+fl, has Wire { state: Signal, val: 10, src_a: "fk", src_b: "fj", a_val: (10, true), b_val: (0, true), command: Or, dest: ["gf"] }
+cur_key: fl, has Wire { state: Signal, val: 10, src_a: "fk", src_b: "fj", a_val: (10, true), b_val: (0, true), command: Or, dest: ["gf"] }
+gf, has Wire { state: Signal, val: 20, src_a: "fl", src_b: "1", a_val: (10, true), b_val: (1, true), command: Lshift, dest: ["gg"] }
+cur_key: gf, has Wire { state: Signal, val: 20, src_a: "fl", src_b: "1", a_val: (10, true), b_val: (1, true), command: Lshift, dest: ["gg"] }
+gg, has Wire { state: Signal, val: 21, src_a: "gf", src_b: "ge", a_val: (20, true), b_val: (1, true), command: Or, dest: ["ha"] }
+cur_key: gg, has Wire { state: Signal, val: 21, src_a: "gf", src_b: "ge", a_val: (20, true), b_val: (1, true), command: Or, dest: ["ha"] }
+ha, has Wire { state: Signal, val: 42, src_a: "gg", src_b: "1", a_val: (21, true), b_val: (1, true), command: Lshift, dest: ["hb"] }
+cur_key: ha, has Wire { state: Signal, val: 42, src_a: "gg", src_b: "1", a_val: (21, true), b_val: (1, true), command: Lshift, dest: ["hb"] }
+hb, has Wire { state: Signal, val: 43, src_a: "ha", src_b: "gz", a_val: (42, true), b_val: (1, true), command: Or, dest: ["hv"] }
+cur_key: hb, has Wire { state: Signal, val: 43, src_a: "ha", src_b: "gz", a_val: (42, true), b_val: (1, true), command: Or, dest: ["hv"] }
+hv, has Wire { state: Signal, val: 86, src_a: "hb", src_b: "1", a_val: (43, true), b_val: (1, true), command: Lshift, dest: ["hw"] }
+cur_key: hv, has Wire { state: Signal, val: 86, src_a: "hb", src_b: "1", a_val: (43, true), b_val: (1, true), command: Lshift, dest: ["hw"] }
+hw, has Wire { state: Signal, val: 87, src_a: "hv", src_b: "hu", a_val: (86, true), b_val: (1, true), command: Or, dest: ["iq"] }
+cur_key: hw, has Wire { state: Signal, val: 87, src_a: "hv", src_b: "hu", a_val: (86, true), b_val: (1, true), command: Or, dest: ["iq"] }
+iq, has Wire { state: Signal, val: 174, src_a: "hw", src_b: "1", a_val: (87, true), b_val: (1, true), command: Lshift, dest: ["ir"] }
+cur_key: iq, has Wire { state: Signal, val: 174, src_a: "hw", src_b: "1", a_val: (87, true), b_val: (1, true), command: Lshift, dest: ["ir"] }
+ir, has Wire { state: Signal, val: 174, src_a: "iq", src_b: "ip", a_val: (174, true), b_val: (0, true), command: Or, dest: ["jl"] }
+cur_key: ir, has Wire { state: Signal, val: 174, src_a: "iq", src_b: "ip", a_val: (174, true), b_val: (0, true), command: Or, dest: ["jl"] }
+jl, has Wire { state: Signal, val: 348, src_a: "ir", src_b: "1", a_val: (174, true), b_val: (1, true), command: Lshift, dest: ["jm"] }
+cur_key: jl, has Wire { state: Signal, val: 348, src_a: "ir", src_b: "1", a_val: (174, true), b_val: (1, true), command: Lshift, dest: ["jm"] }
+jm, has Wire { state: Signal, val: 349, src_a: "jl", src_b: "jk", a_val: (348, true), b_val: (1, true), command: Or, dest: ["kg"] }
+cur_key: jm, has Wire { state: Signal, val: 349, src_a: "jl", src_b: "jk", a_val: (348, true), b_val: (1, true), command: Or, dest: ["kg"] }
+kg, has Wire { state: Signal, val: 698, src_a: "jm", src_b: "1", a_val: (349, true), b_val: (1, true), command: Lshift, dest: ["kh"] }
+cur_key: kg, has Wire { state: Signal, val: 698, src_a: "jm", src_b: "1", a_val: (349, true), b_val: (1, true), command: Lshift, dest: ["kh"] }
+kh, has Wire { state: Signal, val: 699, src_a: "kg", src_b: "kf", a_val: (698, true), b_val: (1, true), command: Or, dest: ["lb"] }
+cur_key: kh, has Wire { state: Signal, val: 699, src_a: "kg", src_b: "kf", a_val: (698, true), b_val: (1, true), command: Or, dest: ["lb"] }
+lb, has Wire { state: Signal, val: 1398, src_a: "kh", src_b: "1", a_val: (699, true), b_val: (1, true), command: Lshift, dest: ["lc"] }
+cur_key: lb, has Wire { state: Signal, val: 1398, src_a: "kh", src_b: "1", a_val: (699, true), b_val: (1, true), command: Lshift, dest: ["lc"] }
+lc, has Wire { state: Signal, val: 1398, src_a: "lb", src_b: "la", a_val: (1398, true), b_val: (0, true), command: Or, dest: ["lw"] }
+cur_key: lc, has Wire { state: Signal, val: 1398, src_a: "lb", src_b: "la", a_val: (1398, true), b_val: (0, true), command: Or, dest: ["lw"] }
+lw, has Wire { state: Signal, val: 2796, src_a: "lc", src_b: "1", a_val: (1398, true), b_val: (1, true), command: Lshift, dest: ["lx"] }
+cur_key: lw, has Wire { state: Signal, val: 2796, src_a: "lc", src_b: "1", a_val: (1398, true), b_val: (1, true), command: Lshift, dest: ["lx"] }
+lx, has Wire { state: Signal, val: 2797, src_a: "lw", src_b: "lv", a_val: (2796, true), b_val: (1, true), command: Or, dest: ["a"] }
+cur_key: lx, has Wire { state: Signal, val: 2797, src_a: "lw", src_b: "lv", a_val: (2796, true), b_val: (1, true), command: Or, dest: ["a"] }
+a, has Wire { state: Signal, val: 2797, src_a: "lx", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: [] }
+cur_key: a, has Wire { state: Signal, val: 2797, src_a: "lx", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: [] }
+*******
+cf has Wire { state: Signal, val: 0, src_a: "ce", src_b: "cd", a_val: (0, true), b_val: (0, true), command: Or, dest: ["cz"] }
+cr has Wire { state: Signal, val: 98, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (98, true), command: And, dest: ["cs"] }
+im has Wire { state: Signal, val: 8193, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (8337, true), command: And, dest: ["in"] }
+jk has Wire { state: Signal, val: 1, src_a: "1", src_b: "jj", a_val: (1, true), b_val: (25931, true), command: And, dest: ["jo", "jm"] }
+ac has Wire { state: Signal, val: 232, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (251, true), command: And, dest: ["ad"] }
+iv has Wire { state: Signal, val: 7488, src_a: "iu", src_b: "2", a_val: (29955, true), b_val: (2, true), command: Rshift, dest: ["jc", "jd"] }
+is has Wire { state: Signal, val: 29955, src_a: "hz", src_b: "1", a_val: (59911, true), b_val: (1, true), command: Rshift, dest: ["iu"] }
+il has Wire { state: Signal, val: 60055, src_a: "hz", src_b: "ik", a_val: (59911, true), b_val: (8337, true), command: Or, dest: ["io"] }
+lo has Wire { state: Signal, val: 2720, src_a: "lg", src_b: "lm", a_val: (7080, true), b_val: (3745, true), command: And, dest: ["lp"] }
+jm has Wire { state: Signal, val: 349, src_a: "jl", src_b: "jk", a_val: (348, true), b_val: (1, true), command: Or, dest: ["kg"] }
+gg has Wire { state: Signal, val: 21, src_a: "gf", src_b: "ge", a_val: (20, true), b_val: (1, true), command: Or, dest: ["ha"] }
+cs has Wire { state: Signal, val: 65437, src_a: "cr", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ct"] }
+lw has Wire { state: Signal, val: 2796, src_a: "lc", src_b: "1", a_val: (1398, true), b_val: (1, true), command: Lshift, dest: ["lx"] }
+je has Wire { state: Signal, val: 62207, src_a: "jd", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jf"] }
+el has Wire { state: Signal, val: 34, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (6694, true), command: And, dest: ["em"] }
+j has Wire { state: Signal, val: 1583, src_a: "g", src_b: "i", a_val: (2047, true), b_val: (65071, true), command: And, dest: ["k", "l"] }
+bj has Wire { state: Signal, val: 0, src_a: "ap", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["bk"] }
+au has Wire { state: Signal, val: 502, src_a: "as", src_b: "3", a_val: (4019, true), b_val: (3, true), command: Rshift, dest: ["ax", "aw"] }
+lk has Wire { state: Signal, val: 340, src_a: "lh", src_b: "li", a_val: (3540, true), b_val: (885, true), command: And, dest: ["ll"] }
+ck has Wire { state: Signal, val: 125, src_a: "ci", src_b: "3", a_val: (1004, true), b_val: (3, true), command: Rshift, dest: ["cn", "cm"] }
+br has Wire { state: Signal, val: 255, src_a: "bp", src_b: "bq", a_val: (251, true), b_val: (62, true), command: Or, dest: ["bu"] }
+jf has Wire { state: Signal, val: 4168, src_a: "jc", src_b: "je", a_val: (7496, true), b_val: (62207, true), command: And, dest: ["jh", "jg"] }
+gx has Wire { state: Signal, val: 55291, src_a: "gw", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gy"] }
+gz has Wire { state: Signal, val: 1, src_a: "1", src_b: "gy", a_val: (1, true), b_val: (37467, true), command: And, dest: ["hd", "hb"] }
+ba has Wire { state: Signal, val: 1007, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (395, true), command: Or, dest: ["bd"] }
+i has Wire { state: Signal, val: 65071, src_a: "h", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["j"] }
+et has Wire { state: Signal, val: 41085, src_a: "er", src_b: "es", a_val: (8317, true), b_val: (32768, true), command: Or, dest: ["eu", "ff", "fm", "fg", "ew", "ev"] }
+kh has Wire { state: Signal, val: 699, src_a: "kg", src_b: "kf", a_val: (698, true), b_val: (1, true), command: Or, dest: ["lb"] }
+it has Wire { state: Signal, val: 0, src_a: "ip", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["iu"] }
+jc has Wire { state: Signal, val: 7496, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (3336, true), command: Or, dest: ["jf"] }
+jd has Wire { state: Signal, val: 3328, src_a: "iv", src_b: "jb", a_val: (7488, true), b_val: (3336, true), command: And, dest: ["je"] }
+en has Wire { state: Signal, val: 23261, src_a: "ek", src_b: "em", a_val: (23295, true), b_val: (65501, true), command: And, dest: ["eo"] }
+jr has Wire { state: Signal, val: 5968, src_a: "jp", src_b: "3", a_val: (47745, true), b_val: (3, true), command: Rshift, dest: ["ju", "jt"] }
+ag has Wire { state: Signal, val: 785, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (791, true), command: And, dest: ["ah"] }
+gh has Wire { state: Signal, val: 10271, src_a: "fo", src_b: "1", a_val: (20542, true), b_val: (1, true), command: Rshift, dest: ["gj"] }
+ey has Wire { state: Signal, val: 1027, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (1283, true), command: And, dest: ["ez"] }
+f has Wire { state: Signal, val: 502, src_a: "b", src_b: "5", a_val: (16076, true), b_val: (5, true), command: Rshift, dest: ["g", "h"] }
+le has Wire { state: Signal, val: 0, src_a: "la", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["lf"] }
+o has Wire { state: Signal, val: 16348, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (2460, true), command: Or, dest: ["r"] }
+as has Wire { state: Signal, val: 4019, src_a: "aq", src_b: "ar", a_val: (4019, true), b_val: (0, true), command: Or, dest: ["bl", "av", "be", "bf", "at", "au"] }
+kp has Wire { state: Signal, val: 680, src_a: "km", src_b: "kn", a_val: (7080, true), b_val: (1770, true), command: And, dest: ["kq"] }
+gl has Wire { state: Signal, val: 5379, src_a: "gj", src_b: "3", a_val: (43039, true), b_val: (3, true), command: Rshift, dest: ["gn", "go"] }
+fy has Wire { state: Signal, val: 65529, src_a: "fx", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fz"] }
+ar has Wire { state: Signal, val: 0, src_a: "an", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["as"] }
+bx has Wire { state: Signal, val: 65339, src_a: "bw", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["by"] }
+db has Wire { state: Signal, val: 502, src_a: "ci", src_b: "1", a_val: (1004, true), b_val: (1, true), command: Rshift, dest: ["dd"] }
+b has Wire { state: Signal, val: 16076, src_a: "16076", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["o", "v", "p", "f", "d", "e"] }
+eq has Wire { state: Signal, val: 5, src_a: "ep", src_b: "eo", a_val: (4, true), b_val: (1, true), command: Or, dest: ["fk"] }
+gd has Wire { state: Signal, val: 19639, src_a: "ga", src_b: "gc", a_val: (23743, true), b_val: (61431, true), command: And, dest: ["ge"] }
+lv has Wire { state: Signal, val: 1, src_a: "1", src_b: "lu", a_val: (1, true), b_val: (31657, true), command: And, dest: ["lz", "lx"] }
+bq has Wire { state: Signal, val: 62, src_a: "bn", src_b: "5", a_val: (2009, true), b_val: (5, true), command: Rshift, dest: ["br", "bs"] }
+y has Wire { state: Signal, val: 2009, src_a: "x", src_b: "2", a_val: (8038, true), b_val: (2, true), command: Rshift, dest: ["ag", "af"] }
+la has Wire { state: Signal, val: 0, src_a: "1", src_b: "kz", a_val: (1, true), b_val: (63314, true), command: And, dest: ["lc", "le"] }
+dt has Wire { state: Signal, val: 0, src_a: "1", src_b: "ds", a_val: (1, true), b_val: (46522, true), command: And, dest: ["dx", "dv"] }
+ip has Wire { state: Signal, val: 0, src_a: "1", src_b: "io", a_val: (1, true), b_val: (51862, true), command: And, dest: ["it", "ir"] }
+hk has Wire { state: Signal, val: 64895, src_a: "hj", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["hl"] }
+ib has Wire { state: Signal, val: 7488, src_a: "hz", src_b: "3", a_val: (59911, true), b_val: (3, true), command: Rshift, dest: ["id", "ie"] }
+dq has Wire { state: Signal, val: 68, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (13388, true), command: And, dest: ["dr"] }
+eu has Wire { state: Signal, val: 10271, src_a: "et", src_b: "2", a_val: (41085, true), b_val: (2, true), command: Rshift, dest: ["fc", "fb"] }
+by has Wire { state: Signal, val: 307, src_a: "bv", src_b: "bx", a_val: (503, true), b_val: (65339, true), command: And, dest: ["ca", "bz"] }
+dm has Wire { state: Signal, val: 49, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (5169, true), command: And, dest: ["dn"] }
+hn has Wire { state: Signal, val: 5121, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (7201, true), command: And, dest: ["ho"] }
+es has Wire { state: Signal, val: 32768, src_a: "eo", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["et"] }
+ay has Wire { state: Signal, val: 65419, src_a: "ax", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["az"] }
+ak has Wire { state: Signal, val: 1094, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (1230, true), command: And, dest: ["al"] }
+aj has Wire { state: Signal, val: 8174, src_a: "x", src_b: "ai", a_val: (8038, true), b_val: (1230, true), command: Or, dest: ["am"] }
+cx has Wire { state: Signal, val: 885, src_a: "cu", src_b: "cw", a_val: (1021, true), b_val: (65399, true), command: And, dest: ["cy"] }
+dl has Wire { state: Signal, val: 13437, src_a: "de", src_b: "dk", a_val: (8317, true), b_val: (5169, true), command: Or, dest: ["do"] }
+fs has Wire { state: Signal, val: 2695, src_a: "fq", src_b: "fr", a_val: (2567, true), b_val: (641, true), command: Or, dest: ["fv"] }
+lm has Wire { state: Signal, val: 3745, src_a: "lj", src_b: "ll", a_val: (4085, true), b_val: (65195, true), command: And, dest: ["ln", "lo"] }
+az has Wire { state: Signal, val: 395, src_a: "aw", src_b: "ay", a_val: (511, true), b_val: (65419, true), command: And, dest: ["bb", "ba"] }
+lt has Wire { state: Signal, val: 64511, src_a: "ls", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lu"] }
+ko has Wire { state: Signal, val: 8170, src_a: "km", src_b: "kn", a_val: (7080, true), b_val: (1770, true), command: Or, dest: ["kr"] }
+ha has Wire { state: Signal, val: 42, src_a: "gg", src_b: "1", a_val: (21, true), b_val: (1, true), command: Lshift, dest: ["hb"] }
+s has Wire { state: Signal, val: 0, src_a: "1", src_b: "r", a_val: (1, true), b_val: (14160, true), command: And, dest: ["u", "w"] }
+ft has Wire { state: Signal, val: 513, src_a: "fq", src_b: "fr", a_val: (2567, true), b_val: (641, true), command: And, dest: ["fu"] }
+d has Wire { state: Signal, val: 4019, src_a: "b", src_b: "2", a_val: (16076, true), b_val: (2, true), command: Rshift, dest: ["k", "l"] }
+bg has Wire { state: Signal, val: 64988, src_a: "bf", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bh"] }
+iz has Wire { state: Signal, val: 672, src_a: "iw", src_b: "ix", a_val: (3744, true), b_val: (936, true), command: And, dest: ["ja"] }
+fg has Wire { state: Signal, val: 8209, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (14611, true), command: And, dest: ["fh"] }
+m has Wire { state: Signal, val: 63964, src_a: "l", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["n"] }
+kq has Wire { state: Signal, val: 64855, src_a: "kp", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kr"] }
+fq has Wire { state: Signal, val: 2567, src_a: "fo", src_b: "3", a_val: (20542, true), b_val: (3, true), command: Rshift, dest: ["ft", "fs"] }
+lu has Wire { state: Signal, val: 31657, src_a: "lr", src_b: "lt", a_val: (32681, true), b_val: (64511, true), command: And, dest: ["lv"] }
+ih has Wire { state: Signal, val: 14993, src_a: "ia", src_b: "ig", a_val: (14977, true), b_val: (6672, true), command: Or, dest: ["ik"] }
+fv has Wire { state: Signal, val: 2182, src_a: "fs", src_b: "fu", a_val: (2695, true), b_val: (65022, true), command: And, dest: ["fx", "fw"] }
+gw has Wire { state: Signal, val: 10244, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (14916, true), command: And, dest: ["gx"] }
+fd has Wire { state: Signal, val: 65523, src_a: "fc", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fe"] }
+dx has Wire { state: Signal, val: 0, src_a: "dt", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["dy"] }
+kl has Wire { state: Signal, val: 14160, src_a: "kk", src_b: "2", a_val: (56640, true), b_val: (2, true), command: Rshift, dest: ["ks", "kt"] }
+fp has Wire { state: Signal, val: 5135, src_a: "fo", src_b: "2", a_val: (20542, true), b_val: (2, true), command: Rshift, dest: ["fx", "fw"] }
+ij has Wire { state: Signal, val: 58879, src_a: "ii", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ik"] }
+bi has Wire { state: Signal, val: 0, src_a: "1", src_b: "bh", a_val: (1, true), b_val: (3540, true), command: And, dest: ["bm", "bk"] }
+ca has Wire { state: Signal, val: 273, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (307, true), command: And, dest: ["cb"] }
+iu has Wire { state: Signal, val: 29955, src_a: "is", src_b: "it", a_val: (29955, true), b_val: (0, true), command: Or, dest: ["jn", "iw", "iv", "jh", "ix", "jg"] }
+ap has Wire { state: Signal, val: 0, src_a: "ao", src_b: "an", a_val: (0, true), b_val: (0, true), command: Or, dest: ["bj"] }
+gi has Wire { state: Signal, val: 32768, src_a: "ge", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["gj"] }
+gk has Wire { state: Signal, val: 10759, src_a: "gj", src_b: "2", a_val: (43039, true), b_val: (2, true), command: Rshift, dest: ["gr", "gs"] }
+ly has Wire { state: Signal, val: 14160, src_a: "lf", src_b: "1", a_val: (28320, true), b_val: (1, true), command: Rshift, dest: ["ma"] }
+ab has Wire { state: Signal, val: 1023, src_a: "z", src_b: "aa", a_val: (1004, true), b_val: (251, true), command: Or, dest: ["ae"] }
+ff has Wire { state: Signal, val: 47487, src_a: "et", src_b: "fe", a_val: (41085, true), b_val: (14611, true), command: Or, dest: ["fi"] }
+ei has Wire { state: Signal, val: 65511, src_a: "eh", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ej"] }
+du has Wire { state: Signal, val: 2, src_a: "da", src_b: "1", a_val: (1, true), b_val: (1, true), command: Lshift, dest: ["dv"] }
+iy has Wire { state: Signal, val: 4008, src_a: "iw", src_b: "ix", a_val: (3744, true), b_val: (936, true), command: Or, dest: ["jb"] }
+gy has Wire { state: Signal, val: 37467, src_a: "gv", src_b: "gx", a_val: (47711, true), b_val: (55291, true), command: And, dest: ["gz"] }
+cm has Wire { state: Signal, val: 127, src_a: "ck", src_b: "cl", a_val: (125, true), b_val: (31, true), command: Or, dest: ["cp"] }
+io has Wire { state: Signal, val: 51862, src_a: "il", src_b: "in", a_val: (60055, true), b_val: (57342, true), command: And, dest: ["ip"] }
+dv has Wire { state: Signal, val: 2, src_a: "du", src_b: "dt", a_val: (2, true), b_val: (0, true), command: Or, dest: ["ep"] }
+cg has Wire { state: Signal, val: 1004, src_a: "bn", src_b: "1", a_val: (2009, true), b_val: (1, true), command: Rshift, dest: ["ci"] }
+cz has Wire { state: Signal, val: 0, src_a: "cf", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["da"] }
+kg has Wire { state: Signal, val: 698, src_a: "jm", src_b: "1", a_val: (349, true), b_val: (1, true), command: Lshift, dest: ["kh"] }
+ev has Wire { state: Signal, val: 5135, src_a: "et", src_b: "3", a_val: (41085, true), b_val: (3, true), command: Rshift, dest: ["ex", "ey"] }
+bw has Wire { state: Signal, val: 196, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (197, true), command: And, dest: ["bx"] }
+km has Wire { state: Signal, val: 7080, src_a: "kk", src_b: "3", a_val: (56640, true), b_val: (3, true), command: Rshift, dest: ["kp", "ko"] }
+ma has Wire { state: Signal, val: 46928, src_a: "ly", src_b: "lz", a_val: (14160, true), b_val: (32768, true), command: Or, dest: [] }
+bo has Wire { state: Signal, val: 502, src_a: "bn", src_b: "2", a_val: (2009, true), b_val: (2, true), command: Rshift, dest: ["bv", "bw"] }
+fw has Wire { state: Signal, val: 7311, src_a: "fp", src_b: "fv", a_val: (5135, true), b_val: (2182, true), command: Or, dest: ["fz"] }
+de has Wire { state: Signal, val: 8317, src_a: "dd", src_b: "2", a_val: (33270, true), b_val: (2, true), command: Rshift, dest: ["dl", "dm"] }
+ic has Wire { state: Signal, val: 1872, src_a: "hz", src_b: "5", a_val: (59911, true), b_val: (5, true), command: Rshift, dest: ["id", "ie"] }
+dp has Wire { state: Signal, val: 46590, src_a: "dd", src_b: "do", a_val: (33270, true), b_val: (13388, true), command: Or, dest: ["ds"] }
+jh has Wire { state: Signal, val: 4096, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (4168, true), command: And, dest: ["ji"] }
+kc has Wire { state: Signal, val: 14336, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (15396, true), command: And, dest: ["kd"] }
+15 has Wire { state: Signal, val: 15, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["it", "fn", "es", "jo", "bm", "hd", "gi", "ch", "lz", "dc", "hy", "dx", "ar", "w", "kj", "le"] }
+r has Wire { state: Signal, val: 14160, src_a: "o", src_b: "q", a_val: (16348, true), b_val: (63347, true), command: And, dest: ["s"] }
+fi has Wire { state: Signal, val: 39278, src_a: "ff", src_b: "fh", a_val: (47487, true), b_val: (57326, true), command: And, dest: ["fj"] }
+gv has Wire { state: Signal, val: 47711, src_a: "gj", src_b: "gu", a_val: (43039, true), b_val: (14916, true), command: Or, dest: ["gy"] }
+dw has Wire { state: Signal, val: 16635, src_a: "dd", src_b: "1", a_val: (33270, true), b_val: (1, true), command: Rshift, dest: ["dy"] }
+bt has Wire { state: Signal, val: 65477, src_a: "bs", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bu"] }
+aq has Wire { state: Signal, val: 4019, src_a: "x", src_b: "1", a_val: (8038, true), b_val: (1, true), command: Rshift, dest: ["as"] }
+ik has Wire { state: Signal, val: 8337, src_a: "ih", src_b: "ij", a_val: (14993, true), b_val: (58879, true), command: And, dest: ["il", "im"] }
+do has Wire { state: Signal, val: 13388, src_a: "dl", src_b: "dn", a_val: (13437, true), b_val: (65486, true), command: And, dest: ["dp", "dq"] }
+lc has Wire { state: Signal, val: 1398, src_a: "lb", src_b: "la", a_val: (1398, true), b_val: (0, true), command: Or, dest: ["lw"] }
+bh has Wire { state: Signal, val: 3540, src_a: "be", src_b: "bg", a_val: (4087, true), b_val: (64988, true), command: And, dest: ["bi"] }
+bu has Wire { state: Signal, val: 197, src_a: "br", src_b: "bt", a_val: (255, true), b_val: (65477, true), command: And, dest: ["bv", "bw"] }
+am has Wire { state: Signal, val: 7080, src_a: "aj", src_b: "al", a_val: (8174, true), b_val: (64441, true), command: And, dest: ["an"] }
+jl has Wire { state: Signal, val: 348, src_a: "ir", src_b: "1", a_val: (174, true), b_val: (1, true), command: Lshift, dest: ["jm"] }
+ji has Wire { state: Signal, val: 61439, src_a: "jh", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jj"] }
+ju has Wire { state: Signal, val: 1360, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (1492, true), command: And, dest: ["jv"] }
+16076 has Wire { state: Signal, val: 16076, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["b"] }
+cb has Wire { state: Signal, val: 65262, src_a: "ca", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cc"] }
+gm has Wire { state: Signal, val: 1344, src_a: "gj", src_b: "5", a_val: (43039, true), b_val: (5, true), command: Rshift, dest: ["gn", "go"] }
+ai has Wire { state: Signal, val: 1230, src_a: "af", src_b: "ah", a_val: (2015, true), b_val: (64750, true), command: And, dest: ["ak", "aj"] }
+cn has Wire { state: Signal, val: 29, src_a: "ck", src_b: "cl", a_val: (125, true), b_val: (31, true), command: And, dest: ["co"] }
+gu has Wire { state: Signal, val: 14916, src_a: "gr", src_b: "gt", a_val: (14919, true), b_val: (65532, true), command: And, dest: ["gw", "gv"] }
+gj has Wire { state: Signal, val: 43039, src_a: "gh", src_b: "gi", a_val: (10271, true), b_val: (32768, true), command: Or, dest: ["hc", "gm", "gw", "gk", "gv", "gl"] }
+gf has Wire { state: Signal, val: 20, src_a: "fl", src_b: "1", a_val: (10, true), b_val: (1, true), command: Lshift, dest: ["gg"] }
+ll has Wire { state: Signal, val: 65195, src_a: "lk", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lm"] }
+bl has Wire { state: Signal, val: 2009, src_a: "as", src_b: "1", a_val: (4019, true), b_val: (1, true), command: Rshift, dest: ["bn"] }
+dr has Wire { state: Signal, val: 65467, src_a: "dq", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ds"] }
+dk has Wire { state: Signal, val: 5169, src_a: "dh", src_b: "dj", a_val: (5183, true), b_val: (65521, true), command: And, dest: ["dl", "dm"] }
+hf has Wire { state: Signal, val: 13571, src_a: "he", src_b: "2", a_val: (54287, true), b_val: (2, true), command: Rshift, dest: ["hm", "hn"] }
+hu has Wire { state: Signal, val: 1, src_a: "1", src_b: "ht", a_val: (1, true), b_val: (64813, true), command: And, dest: ["hw", "hy"] }
+hb has Wire { state: Signal, val: 43, src_a: "ha", src_b: "gz", a_val: (42, true), b_val: (1, true), command: Or, dest: ["hv"] }
+1 has Wire { state: Signal, val: 1, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["jn", "hc", "fm", "kg", "ip", "jk", "cd", "er", "ce", "bl", "db", "lb", "cg", "t", "fj", "ki", "gz", "v", "bj", "jl", "aq", "gf", "du", "bi", "iq", "dw", "s", "dt", "eo", "ly", "ha", "la", "cz", "cy", "ep", "lv", "lw", "is", "kf", "fk", "ao", "hx", "gh", "hu", "ld", "an", "hv", "ge"] }
+ds has Wire { state: Signal, val: 46522, src_a: "dp", src_b: "dr", a_val: (46590, true), b_val: (65467, true), command: And, dest: ["dt"] }
+ew has Wire { state: Signal, val: 1283, src_a: "et", src_b: "5", a_val: (41085, true), b_val: (5, true), command: Rshift, dest: ["ex", "ey"] }
+ch has Wire { state: Signal, val: 0, src_a: "cd", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["ci"] }
+jv has Wire { state: Signal, val: 64175, src_a: "ju", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jw"] }
+dd has Wire { state: Signal, val: 33270, src_a: "db", src_b: "dc", a_val: (502, true), b_val: (32768, true), command: Or, dest: ["df", "de", "dw", "dg", "dp", "dq"] }
+lf has Wire { state: Signal, val: 28320, src_a: "ld", src_b: "le", a_val: (28320, true), b_val: (0, true), command: Or, dest: ["ls", "lg", "lh", "li", "lr", "ly"] }
+gt has Wire { state: Signal, val: 65532, src_a: "gs", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gu"] }
+ge has Wire { state: Signal, val: 1, src_a: "1", src_b: "gd", a_val: (1, true), b_val: (19639, true), command: And, dest: ["gg", "gi"] }
+gr has Wire { state: Signal, val: 14919, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (4163, true), command: Or, dest: ["gu"] }
+li has Wire { state: Signal, val: 885, src_a: "lf", src_b: "5", a_val: (28320, true), b_val: (5, true), command: Rshift, dest: ["lk", "lj"] }
+ao has Wire { state: Signal, val: 0, src_a: "u", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["ap"] }
+hm has Wire { state: Signal, val: 15651, src_a: "hf", src_b: "hl", a_val: (13571, true), b_val: (7201, true), command: Or, dest: ["hp"] }
+fz has Wire { state: Signal, val: 7305, src_a: "fw", src_b: "fy", a_val: (7311, true), b_val: (65529, true), command: And, dest: ["ga", "gb"] }
+ae has Wire { state: Signal, val: 791, src_a: "ab", src_b: "ad", a_val: (1023, true), b_val: (65303, true), command: And, dest: ["ag", "af"] }
+lb has Wire { state: Signal, val: 1398, src_a: "kh", src_b: "1", a_val: (699, true), b_val: (1, true), command: Lshift, dest: ["lc"] }
+e has Wire { state: Signal, val: 2009, src_a: "b", src_b: "3", a_val: (16076, true), b_val: (3, true), command: Rshift, dest: ["g", "h"] }
+fk has Wire { state: Signal, val: 10, src_a: "eq", src_b: "1", a_val: (5, true), b_val: (1, true), command: Lshift, dest: ["fl"] }
+q has Wire { state: Signal, val: 63347, src_a: "p", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["r"] }
+ci has Wire { state: Signal, val: 1004, src_a: "cg", src_b: "ch", a_val: (1004, true), b_val: (0, true), command: Or, dest: ["ck", "db", "cl", "cv", "cj", "cu"] }
+cc has Wire { state: Signal, val: 1770, src_a: "bz", src_b: "cb", a_val: (2043, true), b_val: (65262, true), command: And, dest: ["cd"] }
+ja has Wire { state: Signal, val: 64863, src_a: "iz", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["jb"] }
+da has Wire { state: Signal, val: 1, src_a: "cz", src_b: "cy", a_val: (0, true), b_val: (1, true), command: Or, dest: ["du"] }
+di has Wire { state: Signal, val: 14, src_a: "df", src_b: "dg", a_val: (4158, true), b_val: (1039, true), command: And, dest: ["dj"] }
+fu has Wire { state: Signal, val: 65022, src_a: "ft", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fv"] }
+k has Wire { state: Signal, val: 4031, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (1583, true), command: Or, dest: ["n"] }
+kx has Wire { state: Signal, val: 2048, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (10770, true), command: And, dest: ["ky"] }
+cp has Wire { state: Signal, val: 98, src_a: "cm", src_b: "co", a_val: (127, true), b_val: (65506, true), command: And, dest: ["cr", "cq"] }
+kd has Wire { state: Signal, val: 51199, src_a: "kc", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ke"] }
+bp has Wire { state: Signal, val: 251, src_a: "bn", src_b: "3", a_val: (2009, true), b_val: (3, true), command: Rshift, dest: ["br", "bs"] }
+av has Wire { state: Signal, val: 125, src_a: "as", src_b: "5", a_val: (4019, true), b_val: (5, true), command: Rshift, dest: ["ax", "aw"] }
+ix has Wire { state: Signal, val: 936, src_a: "iu", src_b: "5", a_val: (29955, true), b_val: (5, true), command: Rshift, dest: ["iy", "iz"] }
+bb has Wire { state: Signal, val: 392, src_a: "at", src_b: "az", a_val: (1004, true), b_val: (395, true), command: And, dest: ["bc"] }
+dc has Wire { state: Signal, val: 32768, src_a: "cy", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["dd"] }
+cy has Wire { state: Signal, val: 1, src_a: "1", src_b: "cx", a_val: (1, true), b_val: (885, true), command: And, dest: ["dc", "da"] }
+hj has Wire { state: Signal, val: 640, src_a: "hg", src_b: "hh", a_val: (6785, true), b_val: (1696, true), command: And, dest: ["hk"] }
+fx has Wire { state: Signal, val: 6, src_a: "fp", src_b: "fv", a_val: (5135, true), b_val: (2182, true), command: And, dest: ["fy"] }
+lj has Wire { state: Signal, val: 4085, src_a: "lh", src_b: "li", a_val: (3540, true), b_val: (885, true), command: Or, dest: ["lm"] }
+ga has Wire { state: Signal, val: 23743, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (7305, true), command: Or, dest: ["gd"] }
+dg has Wire { state: Signal, val: 1039, src_a: "dd", src_b: "5", a_val: (33270, true), b_val: (5, true), command: Rshift, dest: ["di", "dh"] }
+hg has Wire { state: Signal, val: 6785, src_a: "he", src_b: "3", a_val: (54287, true), b_val: (3, true), command: Rshift, dest: ["hi", "hj"] }
+dj has Wire { state: Signal, val: 65521, src_a: "di", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["dk"] }
+aa has Wire { state: Signal, val: 251, src_a: "x", src_b: "5", a_val: (8038, true), b_val: (5, true), command: Rshift, dest: ["ab", "ac"] }
+aw has Wire { state: Signal, val: 511, src_a: "au", src_b: "av", a_val: (502, true), b_val: (125, true), command: Or, dest: ["az"] }
+bv has Wire { state: Signal, val: 503, src_a: "bo", src_b: "bu", a_val: (502, true), b_val: (197, true), command: Or, dest: ["by"] }
+n has Wire { state: Signal, val: 2460, src_a: "k", src_b: "m", a_val: (4031, true), b_val: (63964, true), command: And, dest: ["o", "p"] }
+dh has Wire { state: Signal, val: 5183, src_a: "df", src_b: "dg", a_val: (4158, true), b_val: (1039, true), command: Or, dest: ["dk"] }
+hi has Wire { state: Signal, val: 7841, src_a: "hg", src_b: "hh", a_val: (6785, true), b_val: (1696, true), command: Or, dest: ["hl"] }
+dz has Wire { state: Signal, val: 4158, src_a: "dy", src_b: "2", a_val: (16635, true), b_val: (2, true), command: Rshift, dest: ["eg", "eh"] }
+hh has Wire { state: Signal, val: 1696, src_a: "he", src_b: "5", a_val: (54287, true), b_val: (5, true), command: Rshift, dest: ["hi", "hj"] }
+ka has Wire { state: Signal, val: 15396, src_a: "jx", src_b: "jz", a_val: (16036, true), b_val: (64895, true), command: And, dest: ["kb", "kc"] }
+2 has Wire { state: Signal, val: 2, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["eu", "lg", "de", "jq", "ia", "dz", "kl", "bo", "gk", "iv", "fp", "hf", "y", "cj", "d", "at"] }
+fe has Wire { state: Signal, val: 14611, src_a: "fb", src_b: "fd", a_val: (14623, true), b_val: (65523, true), command: And, dest: ["ff", "fg"] }
+kz has Wire { state: Signal, val: 63314, src_a: "kw", src_b: "ky", a_val: (65362, true), b_val: (63487, true), command: And, dest: ["la"] }
+kj has Wire { state: Signal, val: 32768, src_a: "kf", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["kk"] }
+jw has Wire { state: Signal, val: 4740, src_a: "jt", src_b: "jv", a_val: (6100, true), b_val: (64175, true), command: And, dest: ["jx", "jy"] }
+ee has Wire { state: Signal, val: 65528, src_a: "ed", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ef"] }
+c has Wire { state: Signal, val: 0, src_a: "0", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["t"] }
+p has Wire { state: Signal, val: 2188, src_a: "b", src_b: "n", a_val: (16076, true), b_val: (2460, true), command: And, dest: ["q"] }
+ir has Wire { state: Signal, val: 174, src_a: "iq", src_b: "ip", a_val: (174, true), b_val: (0, true), command: Or, dest: ["jl"] }
+dy has Wire { state: Signal, val: 16635, src_a: "dw", src_b: "dx", a_val: (16635, true), b_val: (0, true), command: Or, dest: ["er", "ek", "dz", "el", "eb", "ea"] }
+ld has Wire { state: Signal, val: 28320, src_a: "kk", src_b: "1", a_val: (56640, true), b_val: (1, true), command: Rshift, dest: ["lf"] }
+iq has Wire { state: Signal, val: 174, src_a: "hw", src_b: "1", a_val: (87, true), b_val: (1, true), command: Lshift, dest: ["ir"] }
+jz has Wire { state: Signal, val: 64895, src_a: "jy", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ka"] }
+fj has Wire { state: Signal, val: 0, src_a: "1", src_b: "fi", a_val: (1, true), b_val: (39278, true), command: And, dest: ["fn", "fl"] }
+cl has Wire { state: Signal, val: 31, src_a: "ci", src_b: "5", a_val: (1004, true), b_val: (5, true), command: Rshift, dest: ["cn", "cm"] }
+ks has Wire { state: Signal, val: 16210, src_a: "kl", src_b: "kr", a_val: (14160, true), b_val: (7490, true), command: Or, dest: ["kv"] }
+ig has Wire { state: Signal, val: 6672, src_a: "id", src_b: "if", a_val: (8016, true), b_val: (64191, true), command: And, dest: ["ii", "ih"] }
+fn has Wire { state: Signal, val: 0, src_a: "fj", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["fo"] }
+5 has Wire { state: Signal, val: 5, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["js", "gm", "av", "li", "ew", "ix", "eb", "aa", "cl", "kn", "bq", "f", "dg", "fr", "ic", "hh"] }
+hs has Wire { state: Signal, val: 65533, src_a: "hr", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ht"] }
+ax has Wire { state: Signal, val: 116, src_a: "au", src_b: "av", a_val: (502, true), b_val: (125, true), command: And, dest: ["ay"] }
+er has Wire { state: Signal, val: 8317, src_a: "dy", src_b: "1", a_val: (16635, true), b_val: (1, true), command: Rshift, dest: ["et"] }
+kb has Wire { state: Signal, val: 48805, src_a: "jp", src_b: "ka", a_val: (47745, true), b_val: (15396, true), command: Or, dest: ["ke"] }
+fa has Wire { state: Signal, val: 4364, src_a: "ex", src_b: "ez", a_val: (5391, true), b_val: (64508, true), command: And, dest: ["fc", "fb"] }
+ef has Wire { state: Signal, val: 2584, src_a: "ec", src_b: "ee", a_val: (2591, true), b_val: (65528, true), command: And, dest: ["eg", "eh"] }
+fh has Wire { state: Signal, val: 57326, src_a: "fg", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fi"] }
+ki has Wire { state: Signal, val: 23872, src_a: "jp", src_b: "1", a_val: (47745, true), b_val: (1, true), command: Rshift, dest: ["kk"] }
+fo has Wire { state: Signal, val: 20542, src_a: "fm", src_b: "fn", a_val: (20542, true), b_val: (0, true), command: Or, dest: ["ga", "fp", "fq", "gh", "fr", "gb"] }
+ky has Wire { state: Signal, val: 63487, src_a: "kx", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kz"] }
+kt has Wire { state: Signal, val: 5440, src_a: "kl", src_b: "kr", a_val: (14160, true), b_val: (7490, true), command: And, dest: ["ku"] }
+fm has Wire { state: Signal, val: 20542, src_a: "et", src_b: "1", a_val: (41085, true), b_val: (1, true), command: Rshift, dest: ["fo"] }
+3 has Wire { state: Signal, val: 3, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["df", "ck", "iw", "bp", "lh", "ib", "jr", "fq", "ev", "hg", "ea", "km", "gl", "e", "au", "z"] }
+jb has Wire { state: Signal, val: 3336, src_a: "iy", src_b: "ja", a_val: (4008, true), b_val: (64863, true), command: And, dest: ["jc", "jd"] }
+lh has Wire { state: Signal, val: 3540, src_a: "lf", src_b: "3", a_val: (28320, true), b_val: (3, true), command: Rshift, dest: ["lk", "lj"] }
+hw has Wire { state: Signal, val: 87, src_a: "hv", src_b: "hu", a_val: (86, true), b_val: (1, true), command: Or, dest: ["iq"] }
+ex has Wire { state: Signal, val: 5391, src_a: "ev", src_b: "ew", a_val: (5135, true), b_val: (1283, true), command: Or, dest: ["fa"] }
+a has Wire { state: Signal, val: 2797, src_a: "lx", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: [] }
+kf has Wire { state: Signal, val: 1, src_a: "1", src_b: "ke", a_val: (1, true), b_val: (34469, true), command: And, dest: ["kh", "kj"] }
+hy has Wire { state: Signal, val: 32768, src_a: "hu", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["hz"] }
+id has Wire { state: Signal, val: 8016, src_a: "ib", src_b: "ic", a_val: (7488, true), b_val: (1872, true), command: Or, dest: ["ig"] }
+kw has Wire { state: Signal, val: 65362, src_a: "kk", src_b: "kv", a_val: (56640, true), b_val: (10770, true), command: Or, dest: ["kz"] }
+ec has Wire { state: Signal, val: 2591, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (519, true), command: Or, dest: ["ef"] }
+gs has Wire { state: Signal, val: 3, src_a: "gk", src_b: "gq", a_val: (10759, true), b_val: (4163, true), command: And, dest: ["gt"] }
+cq has Wire { state: Signal, val: 251, src_a: "cj", src_b: "cp", a_val: (251, true), b_val: (98, true), command: Or, dest: ["ct"] }
+dn has Wire { state: Signal, val: 65486, src_a: "dm", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["do"] }
+h has Wire { state: Signal, val: 464, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (502, true), command: And, dest: ["i"] }
+lp has Wire { state: Signal, val: 62815, src_a: "lo", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["lq"] }
+jo has Wire { state: Signal, val: 32768, src_a: "jk", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["jp"] }
+t has Wire { state: Signal, val: 0, src_a: "c", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["u"] }
+ke has Wire { state: Signal, val: 34469, src_a: "kb", src_b: "kd", a_val: (48805, true), b_val: (51199, true), command: And, dest: ["kf"] }
+jq has Wire { state: Signal, val: 11936, src_a: "jp", src_b: "2", a_val: (47745, true), b_val: (2, true), command: Rshift, dest: ["jx", "jy"] }
+co has Wire { state: Signal, val: 65506, src_a: "cn", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cp"] }
+eo has Wire { state: Signal, val: 1, src_a: "1", src_b: "en", a_val: (1, true), b_val: (23261, true), command: And, dest: ["es", "eq"] }
+bn has Wire { state: Signal, val: 2009, src_a: "bl", src_b: "bm", a_val: (2009, true), b_val: (0, true), command: Or, dest: ["bp", "cg", "bo", "ca", "bz", "bq"] }
+bm has Wire { state: Signal, val: 0, src_a: "bi", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["bn"] }
+at has Wire { state: Signal, val: 1004, src_a: "as", src_b: "2", a_val: (4019, true), b_val: (2, true), command: Rshift, dest: ["bb", "ba"] }
+ej has Wire { state: Signal, val: 6694, src_a: "eg", src_b: "ei", a_val: (6718, true), b_val: (65511, true), command: And, dest: ["ek", "el"] }
+bs has Wire { state: Signal, val: 58, src_a: "bp", src_b: "bq", a_val: (251, true), b_val: (62, true), command: And, dest: ["bt"] }
+cv has Wire { state: Signal, val: 136, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (153, true), command: And, dest: ["cw"] }
+ah has Wire { state: Signal, val: 64750, src_a: "ag", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ai"] }
+ep has Wire { state: Signal, val: 4, src_a: "dv", src_b: "1", a_val: (2, true), b_val: (1, true), command: Lshift, dest: ["eq"] }
+he has Wire { state: Signal, val: 54287, src_a: "hc", src_b: "hd", a_val: (21519, true), b_val: (32768, true), command: Or, dest: ["hq", "hg", "hf", "hr", "hx", "hh"] }
+hc has Wire { state: Signal, val: 21519, src_a: "gj", src_b: "1", a_val: (43039, true), b_val: (1, true), command: Rshift, dest: ["he"] }
+ia has Wire { state: Signal, val: 14977, src_a: "hz", src_b: "2", a_val: (59911, true), b_val: (2, true), command: Rshift, dest: ["ii", "ih"] }
+gq has Wire { state: Signal, val: 4163, src_a: "gn", src_b: "gp", a_val: (5443, true), b_val: (64255, true), command: And, dest: ["gr", "gs"] }
+hr has Wire { state: Signal, val: 2, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (10530, true), command: And, dest: ["hs"] }
+ho has Wire { state: Signal, val: 60414, src_a: "hn", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["hp"] }
+hv has Wire { state: Signal, val: 86, src_a: "hb", src_b: "1", a_val: (43, true), b_val: (1, true), command: Lshift, dest: ["hw"] }
+x has Wire { state: Signal, val: 8038, src_a: "v", src_b: "w", a_val: (8038, true), b_val: (0, true), command: Or, dest: ["ak", "aq", "aj", "aa", "y", "z"] }
+hq has Wire { state: Signal, val: 64815, src_a: "he", src_b: "hp", a_val: (54287, true), b_val: (10530, true), command: Or, dest: ["ht"] }
+ct has Wire { state: Signal, val: 153, src_a: "cq", src_b: "cs", a_val: (251, true), b_val: (65437, true), command: And, dest: ["cv", "cu"] }
+kn has Wire { state: Signal, val: 1770, src_a: "kk", src_b: "5", a_val: (56640, true), b_val: (5, true), command: Rshift, dest: ["kp", "ko"] }
+l has Wire { state: Signal, val: 1571, src_a: "d", src_b: "j", a_val: (4019, true), b_val: (1583, true), command: And, dest: ["m"] }
+gn has Wire { state: Signal, val: 5443, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (1344, true), command: Or, dest: ["gq"] }
+cw has Wire { state: Signal, val: 65399, src_a: "cv", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["cx"] }
+kr has Wire { state: Signal, val: 7490, src_a: "ko", src_b: "kq", a_val: (8170, true), b_val: (64855, true), command: And, dest: ["ks", "kt"] }
+iw has Wire { state: Signal, val: 3744, src_a: "iu", src_b: "3", a_val: (29955, true), b_val: (3, true), command: Rshift, dest: ["iy", "iz"] }
+go has Wire { state: Signal, val: 1280, src_a: "gl", src_b: "gm", a_val: (5379, true), b_val: (1344, true), command: And, dest: ["gp"] }
+fb has Wire { state: Signal, val: 14623, src_a: "eu", src_b: "fa", a_val: (10271, true), b_val: (4364, true), command: Or, dest: ["fe"] }
+jy has Wire { state: Signal, val: 640, src_a: "jq", src_b: "jw", a_val: (11936, true), b_val: (4740, true), command: And, dest: ["jz"] }
+eb has Wire { state: Signal, val: 519, src_a: "dy", src_b: "5", a_val: (16635, true), b_val: (5, true), command: Rshift, dest: ["ed", "ec"] }
+af has Wire { state: Signal, val: 2015, src_a: "y", src_b: "ae", a_val: (2009, true), b_val: (791, true), command: Or, dest: ["ai"] }
+ku has Wire { state: Signal, val: 60095, src_a: "kt", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["kv"] }
+ht has Wire { state: Signal, val: 64813, src_a: "hq", src_b: "hs", a_val: (64815, true), b_val: (65533, true), command: And, dest: ["hu"] }
+ea has Wire { state: Signal, val: 2079, src_a: "dy", src_b: "3", a_val: (16635, true), b_val: (3, true), command: Rshift, dest: ["ed", "ec"] }
+jj has Wire { state: Signal, val: 25931, src_a: "jg", src_b: "ji", a_val: (30027, true), b_val: (61439, true), command: And, dest: ["jk"] }
+fr has Wire { state: Signal, val: 641, src_a: "fo", src_b: "5", a_val: (20542, true), b_val: (5, true), command: Rshift, dest: ["ft", "fs"] }
+bc has Wire { state: Signal, val: 65143, src_a: "bb", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["bd"] }
+lz has Wire { state: Signal, val: 32768, src_a: "lv", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["ma"] }
+ln has Wire { state: Signal, val: 8105, src_a: "lg", src_b: "lm", a_val: (7080, true), b_val: (3745, true), command: Or, dest: ["lq"] }
+ad has Wire { state: Signal, val: 65303, src_a: "ac", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ae"] }
+em has Wire { state: Signal, val: 65501, src_a: "el", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["en"] }
+fl has Wire { state: Signal, val: 10, src_a: "fk", src_b: "fj", a_val: (10, true), b_val: (0, true), command: Or, dest: ["gf"] }
+bf has Wire { state: Signal, val: 547, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (615, true), command: And, dest: ["bg"] }
+be has Wire { state: Signal, val: 4087, src_a: "as", src_b: "bd", a_val: (4019, true), b_val: (615, true), command: Or, dest: ["bh"] }
+cd has Wire { state: Signal, val: 0, src_a: "1", src_b: "cc", a_val: (1, true), b_val: (1770, true), command: And, dest: ["cf", "ch"] }
+ed has Wire { state: Signal, val: 7, src_a: "ea", src_b: "eb", a_val: (2079, true), b_val: (519, true), command: And, dest: ["ee"] }
+u has Wire { state: Signal, val: 0, src_a: "t", src_b: "s", a_val: (0, true), b_val: (0, true), command: Or, dest: ["ao"] }
+lq has Wire { state: Signal, val: 5385, src_a: "ln", src_b: "lp", a_val: (8105, true), b_val: (62815, true), command: And, dest: ["ls", "lr"] }
+eh has Wire { state: Signal, val: 24, src_a: "dz", src_b: "ef", a_val: (4158, true), b_val: (2584, true), command: And, dest: ["ei"] }
+cu has Wire { state: Signal, val: 1021, src_a: "ci", src_b: "ct", a_val: (1004, true), b_val: (153, true), command: Or, dest: ["cx"] }
+df has Wire { state: Signal, val: 4158, src_a: "dd", src_b: "3", a_val: (33270, true), b_val: (3, true), command: Rshift, dest: ["di", "dh"] }
+hz has Wire { state: Signal, val: 59911, src_a: "hx", src_b: "hy", a_val: (27143, true), b_val: (32768, true), command: Or, dest: ["ia", "ib", "is", "il", "ic", "im"] }
+ez has Wire { state: Signal, val: 64508, src_a: "ey", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["fa"] }
+kv has Wire { state: Signal, val: 10770, src_a: "ks", src_b: "ku", a_val: (16210, true), b_val: (60095, true), command: And, dest: ["kx", "kw"] }
+in has Wire { state: Signal, val: 57342, src_a: "im", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["io"] }
+ii has Wire { state: Signal, val: 6656, src_a: "ia", src_b: "ig", a_val: (14977, true), b_val: (6672, true), command: And, dest: ["ij"] }
+if has Wire { state: Signal, val: 64191, src_a: "ie", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["ig"] }
+ie has Wire { state: Signal, val: 1344, src_a: "ib", src_b: "ic", a_val: (7488, true), b_val: (1872, true), command: And, dest: ["if"] }
+eg has Wire { state: Signal, val: 6718, src_a: "dz", src_b: "ef", a_val: (4158, true), b_val: (2584, true), command: Or, dest: ["ej"] }
+al has Wire { state: Signal, val: 64441, src_a: "ak", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["am"] }
+ls has Wire { state: Signal, val: 1024, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (5385, true), command: And, dest: ["lt"] }
+z has Wire { state: Signal, val: 1004, src_a: "x", src_b: "3", a_val: (8038, true), b_val: (3, true), command: Rshift, dest: ["ab", "ac"] }
+jt has Wire { state: Signal, val: 6100, src_a: "jr", src_b: "js", a_val: (5968, true), b_val: (1492, true), command: Or, dest: ["jw"] }
+an has Wire { state: Signal, val: 0, src_a: "1", src_b: "am", a_val: (1, true), b_val: (7080, true), command: And, dest: ["ap", "ar"] }
+jp has Wire { state: Signal, val: 47745, src_a: "jn", src_b: "jo", a_val: (14977, true), b_val: (32768, true), command: Or, dest: ["jq", "js", "ki", "kb", "jr", "kc"] }
+gb has Wire { state: Signal, val: 4104, src_a: "fo", src_b: "fz", a_val: (20542, true), b_val: (7305, true), command: And, dest: ["gc"] }
+jx has Wire { state: Signal, val: 16036, src_a: "jq", src_b: "jw", a_val: (11936, true), b_val: (4740, true), command: Or, dest: ["ka"] }
+jn has Wire { state: Signal, val: 14977, src_a: "iu", src_b: "1", a_val: (29955, true), b_val: (1, true), command: Rshift, dest: ["jp"] }
+hl has Wire { state: Signal, val: 7201, src_a: "hi", src_b: "hk", a_val: (7841, true), b_val: (64895, true), command: And, dest: ["hm", "hn"] }
+jg has Wire { state: Signal, val: 30027, src_a: "iu", src_b: "jf", a_val: (29955, true), b_val: (4168, true), command: Or, dest: ["jj"] }
+gp has Wire { state: Signal, val: 64255, src_a: "go", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gq"] }
+ce has Wire { state: Signal, val: 0, src_a: "bk", src_b: "1", a_val: (0, true), b_val: (1, true), command: Lshift, dest: ["cf"] }
+g has Wire { state: Signal, val: 2047, src_a: "e", src_b: "f", a_val: (2009, true), b_val: (502, true), command: Or, dest: ["j"] }
+lx has Wire { state: Signal, val: 2797, src_a: "lw", src_b: "lv", a_val: (2796, true), b_val: (1, true), command: Or, dest: ["a"] }
+fc has Wire { state: Signal, val: 12, src_a: "eu", src_b: "fa", a_val: (10271, true), b_val: (4364, true), command: And, dest: ["fd"] }
+gc has Wire { state: Signal, val: 61431, src_a: "gb", src_b: "", a_val: (0, false), b_val: (0, false), command: Not, dest: ["gd"] }
+lg has Wire { state: Signal, val: 7080, src_a: "lf", src_b: "2", a_val: (28320, true), b_val: (2, true), command: Rshift, dest: ["ln", "lo"] }
+hd has Wire { state: Signal, val: 32768, src_a: "gz", src_b: "15", a_val: (1, true), b_val: (15, true), command: Lshift, dest: ["he"] }
+v has Wire { state: Signal, val: 8038, src_a: "b", src_b: "1", a_val: (16076, true), b_val: (1, true), command: Rshift, dest: ["x"] }
+w has Wire { state: Signal, val: 0, src_a: "s", src_b: "15", a_val: (0, true), b_val: (15, true), command: Lshift, dest: ["x"] }
+bd has Wire { state: Signal, val: 615, src_a: "ba", src_b: "bc", a_val: (1007, true), b_val: (65143, true), command: And, dest: ["be", "bf"] }
+bk has Wire { state: Signal, val: 0, src_a: "bj", src_b: "bi", a_val: (0, true), b_val: (0, true), command: Or, dest: ["ce"] }
+lr has Wire { state: Signal, val: 32681, src_a: "lf", src_b: "lq", a_val: (28320, true), b_val: (5385, true), command: Or, dest: ["lu"] }
+bz has Wire { state: Signal, val: 2043, src_a: "bn", src_b: "by", a_val: (2009, true), b_val: (307, true), command: Or, dest: ["cc"] }
+ek has Wire { state: Signal, val: 23295, src_a: "dy", src_b: "ej", a_val: (16635, true), b_val: (6694, true), command: Or, dest: ["en"] }
+hx has Wire { state: Signal, val: 27143, src_a: "he", src_b: "1", a_val: (54287, true), b_val: (1, true), command: Rshift, dest: ["hz"] }
+js has Wire { state: Signal, val: 1492, src_a: "jp", src_b: "5", a_val: (47745, true), b_val: (5, true), command: Rshift, dest: ["ju", "jt"] }
+hp has Wire { state: Signal, val: 10530, src_a: "hm", src_b: "ho", a_val: (15651, true), b_val: (60414, true), command: And, dest: ["hq", "hr"] }
+cj has Wire { state: Signal, val: 251, src_a: "ci", src_b: "2", a_val: (1004, true), b_val: (2, true), command: Rshift, dest: ["cr", "cq"] }
+0 has Wire { state: Signal, val: 0, src_a: "", src_b: "", a_val: (0, false), b_val: (0, false), command: Give, dest: ["c"] }
+kk has Wire { state: Signal, val: 56640, src_a: "ki", src_b: "kj", a_val: (23872, true), b_val: (32768, true), command: Or, dest: ["kl", "km", "kx", "kn", "kw", "ld"] }
